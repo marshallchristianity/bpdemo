@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+		<head>
+			<meta charset="utf-8" />
+			
+				<link type="text/css" rel="stylesheet" href="home.css">
+				
+				
+				  <script src="jquery.min.js" type="text/javascript"></script>
+
+     <script src="jquery-ui.min.js" type="text/javascript"></script>
+
+     <script src="js/farbtastic.js" type="text/javascript"></script>
+
+     
+
+	<link rel="stylesheet" type="text/css" href="jquery-ui.css" media = "all"/>
+
+     <link rel="stylesheet" href="css/farbtastic.css" type="text/css" />
+
+     <style type="text/css">
+
+  
+
+	#swatch{
+
+		width: 100px;
+
+		height: 100px;
+
+		background-image:none;
+
+		float:right;
+
+		margin:6px 20px 0px 0px;
+
+		border:none;
+
+		background-color:black;
+
+	}
+
+	#sliders{
+
+		width:200px;
+
+	}
+
+	#colorpicker{
+
+		float:left;
+
+		margin:0px 0px 0px 20px;
+
+	}
+
+	
+	#innerswatch{
+
+		font:bold 24px arial;
+
+		margin:75px 0px 0px 0px;
+
+		text-align:center;
+
+		color:white;
+
+	}
+
+	</style>
+
+     <script type = "text/javascript">
+	 
+	 var color,initial_color="#01a54f",final_color="#ffb900";
+
+     	$(document).ready(function(){
+
+			var colorPicker = $.farbtastic("#colorpicker");
+
+			colorPicker.linkTo(pickerUpdate);
+
+		
+			function sliderUpdate() {
+
+				
+				var hex=hexFromRGB(red,green,blue);
+
+				colorPicker.setColor("#"+hex);
+
+			}	
+
+			function hexFromRGB(r,g,b){
+
+				var hex = [r.toString(16),g.toString(16),b.toString(16)];
+
+				$.each(hex,function(nr,val){
+
+					if(val.length===1){
+
+						hex[nr]="0"+val;
+
+					}
+
+				});
+
+				return hex.join("").toUpperCase();
+
+			}
+
+			function pickerUpdate(color){
+			
+				
+				switch(item_no)
+				{
+					case 1:
+					$("#top_menu").css("background-color",color);
+					$("#footer").css("background-color",color);
+					break;
+					
+					case 2:initial_color=color;
+						 undo_change_color(1);
+						undo_change_color(2);
+						undo_change_color(3);
+						break;
+						
+					case 3:final_color=color;
+						 undo_change_color(1);
+						undo_change_color(2);
+						undo_change_color(3);
+						break;
+					default:break	;	
+					
+				}
+				
+
+				$("#swatch").css("background-color",color);
+
+				if(colorPicker.hsl[2]>0.5){
+
+               		$("#innerswatch").css("color","#000000");	     
+
+          		}
+
+          		else{
+
+               		$("#innerswatch").css("color","#ffffff");   
+
+          		}
+
+				$("#innerswatch").html(color.toUpperCase())
+
+				var red = parseInt(color.substring(1,3),16);
+
+				var green = parseInt(color.substring(3,5),16);
+
+				var blue = parseInt(color.substring(5,7),16);	
+
+						
+
+			}
+
+		});
+
+     </script>
+
+			
+			
+				<script>
+				
+					var x=0,menu="",t,i=0,item_no=1;
+					
+					
+								function change_color(x)
+								{
+								
+																	
+										switch(x)
+										{
+											case 1:t=context_food;
+											break
+											case 2:t=context_pub;
+											break
+											case 3:t=context_rest;
+											break
+											default:break;
+										
+																			
+										}
+										
+										
+									  
+										  t.beginPath();
+										  t.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+										  t.fillStyle = final_color;
+										  t.fill();
+										  t.lineWidth = 0;
+										  t.strokeStyle = '#ffffff';
+										  t.stroke();
+										
+											
+									
+								
+								
+								}
+								
+								
+								function undo_change_color(x)
+								{
+								
+																	
+										switch(x)
+										{
+											case 1:t=context_food;
+											break
+											case 2:t=context_pub;
+											break
+											case 3:t=context_rest;
+											break
+											default:break;
+										
+																			
+										}
+										
+										
+									  
+										  t.beginPath();
+										  t.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+										  t.fillStyle = initial_color;
+										  t.fill();
+										  t.lineWidth = 0;
+										  t.strokeStyle = '#ffffff';
+										  t.stroke();
+										
+											
+									
+								
+								
+								}
+								
+		
+				
+				</script>
+			
+			
+		</head>
+		
+		
+		
+		<body  bgcolor="black"  style="margin:0px auto;" >
+		
+				<div style="width:1024px;margin:0px auto;paddding:0px auto;background-color:white;">
+					<div id="top_menu" >
+			
+				<div id="logo">
+					<img src="logo.png" >
+				</div >
+				
+			<div id="menus" >	
+				<ul class="menu">
+					<li ><a href="">HOME</a></li>
+					<li ><a href="">GET STARTED</a></li>
+					<li id="last_menu"  ><a href="" >CONTACT US</a></li>
+					
+				<ul>
+			</div>	
+				
+			</div >	
+			
+			
+			
+			<div  id="icon_menu"  >
+			
+				
+				<ul id="icons" align="center" >
+					<li><canvas id="food" width="200" height="200"  onmouseover="change_color(1)" onmouseout="undo_change_color(1)" onclick="item_no=2" ></canvas>
+							<script>
+							 
+							  var canvas = document.getElementById('food');
+							  var context_food = canvas.getContext('2d');
+							  var centerX = canvas.width / 2;
+							  var centerY = canvas.height / 2;
+							  var radius = 98;
+
+							  context_food.beginPath();
+							  context_food.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+							  context_food.fillStyle = '#01a54f';
+							  context_food.fill();
+							  context_food.lineWidth = 0;
+							  
+								
+								 
+							</script>
+						
+					</li>
+					
+					<li><canvas id="pub" width="200" height="200" onmouseover="change_color(2)" onmouseout="undo_change_color(2)" onclick="item_no=2"></canvas>
+							<script>
+							  var canvas = document.getElementById('pub');
+							  var context_pub = canvas.getContext('2d');
+							  var centerX = canvas.width / 2;
+							  var centerY = canvas.height / 2;
+							  var radius = 98;
+
+							  context_pub.beginPath();
+							  context_pub.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+							  context_pub.fillStyle = '#01a54f';
+							  context_pub.fill();
+							  context_pub.lineWidth = 0;
+							  
+							</script>
+						
+					</li>
+					
+					<li><canvas id="resturant" width="200" height="200" onmouseover="change_color(3)" onmouseout="undo_change_color(3)" onclick="item_no=2"></canvas>
+							<script>
+							  var canvas = document.getElementById('resturant');
+							  var context_rest= canvas.getContext('2d');
+							  var centerX = canvas.width / 2;
+							  var centerY = canvas.height / 2;
+							  var radius = 98;
+
+							  context_rest.beginPath();
+							  context_rest.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+							  context_rest.fillStyle = '#01a54f';
+							  context_rest.fill();
+							  context_rest.lineWidth = 0;
+							  
+							</script>
+							
+					</li>
+					<!--<li><a href=""><img src="menu_2.jpg" id="menu_2" onmouseover="highlight('menu_2',1)" onmouseout="highlight('menu_2',0)"></a></li>-->
+					<!--<li><a href=""><img src="menu_3.jpg" id="menu_3" onmouseover="highlight('menu_3',1)"onmouseout="highlight('menu_3',0)"></a></li>-->
+					
+				<ul>
+			
+			</div>
+			
+			<div id="names" >	
+			<!--	<img src="names.jpg">-->
+			</div>	
+		
+		
+		
+			
+			
+			
+			
+			<div id="footer">
+			
+			
+				<p  id="footer_text" align="center" >Transfer any COM/NET domain name to NAME.com for $8.25</p>
+					
+			</div>
+			
+			
+			<div id="color_picker">
+				
+					
+				<div id = "sliders" width="20%">
+					<div id="colorpicker"></div>
+				</div>
+			
+			
+			
+				 <div id="swatch" class="ui-widget-content ui-corner-all" >
+					<div id="innerswatch"></div>				   
+				</div>
+			
+
+				
+			
+			</div>
+			
+			
+			<div>
+				<form onClick="item_no=" id="selection_form" >
+					<input type="radio" name="selection_form" onClick="item_no=1"  checked="checked" value="1">Header and Footer<br>
+					<input type="radio" name="selection_form" onClick="item_no=2" value="2">Icons<br>
+					<input type="radio" name="selection_form" onClick="item_no=3" value="3">Icons On Mosuseover
+				</form>
+			</div>
+			
+			
+			
+				
+				
+				</div>
+			
+			
+			
+		</body>
+		
+		
+</html>
+
+

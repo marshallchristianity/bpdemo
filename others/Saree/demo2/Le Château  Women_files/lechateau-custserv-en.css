@@ -1,0 +1,706 @@
+@charset "UTF-8";
+/*
+LE CHATEAU TEMPORARY CUSTOMER SERVICE SECTION
+--------------------------------------------------
+BY SWEDEN UNLIMITED DOT COM
+*/
+
+
+
+/* MAIN STRUCTURE
+--------------------------------------------------*/
+#cs-wrapper {background:#fff;}
+
+#cs-wrapper {
+	width:940px;
+	float:left;
+	margin:0;
+	background:#fff;
+}
+
+#cs-leftnav {
+	width:154px;
+	float:left;
+	margin:0 36px 0 0;
+}
+
+#cs-content {
+	width:750px;
+	float:left;
+	margin:0;
+}
+
+
+#cs-content.timeline {
+	width:940px;
+	height:600px;
+	text-align:center;
+}
+
+#cs-content.full {
+	border-top:2px solid #e6e6e6;
+	height:100%;
+	min-height:100%;
+}
+
+#cs-content.jobs {
+	border-top:2px solid #e6e6e6;
+	height:100%;
+	min-height:600px;
+}
+#cs-content.ir {
+	height:100%;
+	min-height:600px;
+}
+#cs-narrowcontent {
+	width:444px;
+	float:left;
+	margin:0;
+	border-top:2px solid #e6e6e6;
+	padding:0 0 0 10px;
+}
+
+#cs-rightnav {
+	width:260px;
+	float:left;
+	margin:0 0 0 36px;
+	border-top:2px solid #e6e6e6;
+}
+
+#cs-narrowcontent .section {
+	margin:0 0 16px 0;
+	float:left;
+}
+
+#cs-header {
+	width:750px;
+	height:258px;
+	float:left;
+	margin:0 0 20px 0;
+	border-top:2px solid #000;
+	position:relative;
+}
+
+#taleo_frame {
+	height:100%;
+	overflow:auto;
+	min-height:600px;
+}
+
+
+
+
+/* FONTS
+--------------------------------------------------*/
+#cs-wrapper {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#999;
+	font-size:11px;
+	line-height:17px;
+}
+
+#cs-wrapper a {
+	text-decoration:none;
+}
+
+#cs-content a {
+	color:#000;	
+}
+
+#cs-content a.top {
+	color:#cacaca;
+	float:right;
+	font-size:9px;
+	text-transform:uppercase;
+	margin:0 0 20px 0;
+	width:100%;
+	text-align:right;
+}
+
+#cs-wrapper h1.cs {
+	display:block;
+	width:940px;
+	height:19px;
+	text-indent:-9999em;
+	overflow:hidden;
+	background:url('/style/images/company-en/cs-header.png') 0 0 no-repeat;
+	float:left;
+	margin:0 0 20px 0;
+}
+
+#cs-wrapper h1.co {
+	display:block;
+	width:940px;
+	height:19px;
+	text-indent:-9999em;
+	overflow:hidden;
+	background:url('/style/images/company-en/co-header.png') 0 0 no-repeat;
+	float:left;
+	margin:0 0 20px 0;
+}
+
+#cs-wrapper h1.hide {
+	display:none;
+	visibility:hidden;
+}
+
+#cs-wrapper h2 {
+	text-transform:uppercase;
+	font-weight:100;
+	font-size:11px;
+	color:white;
+	margin:5px 0 10px;
+}
+
+#cs-wrapper h2.phone {
+	background:url('/style/images/company-en/cs-phone-icon.gif') 0 0 no-repeat;
+	padding:0 0 0 22px;
+}
+
+#cs-wrapper h2.email {
+	background:url('/style/images/company-en/cs-email-icon.gif') 0 0 no-repeat;
+	padding:0 0 0 22px;
+}
+
+#cs-wrapper h2.mail {
+	background:url('/style/images/company-en/cs-mail-icon.gif') 0 0 no-repeat;
+	padding:0 0 0 22px;
+}
+
+#cs-wrapper h3 {
+	text-transform:uppercase;
+	font-weight:100;
+	color:#999;
+	margin:5px 0 10px;
+}
+
+#cs-wrapper p {
+	margin:0 0 12px 0;
+}
+
+#cs-wrapper form .input-row p {
+	padding:0 0 0 26px;
+	margin:0;
+}
+
+#cs-wrapper form .input-row span {
+	float:left;
+	color:white;
+	padding:0 8px;
+}
+
+#cs-wrapper hr {
+	clear:both;
+	height:2px;
+	border:0;
+	background:#e6e6e6;
+	width:100%;
+}
+
+#cs-narrowcontent hr {
+	clear:both;
+	height:2px;
+	border:0;
+	background:#e6e6e6;
+	width:454px;
+	margin:0 0 0 -10px;
+	padding:0 10px 0 0;
+}
+
+#cs-rightnav p,
+#cs-rightnav h2 {
+	margin-left:10px;
+}
+
+#cs-rightnav .jumpnav h2,
+#cs-rightnav .jumpnav h3 {
+	margin:8px 0 5px 10px;
+	line-height:12px;
+}
+
+#cs-rightnav .jumpnav h2 a {
+	color:white;
+}
+
+#cs-rightnav .jumpnav h3 a {
+	color:#999;
+}
+
+#cs-rightnav p.ship {
+	margin:0 0 14px 10px;
+}
+
+#cs-narrowcontent ul {
+	padding:0 0 0 20px;
+	list-style:disc;
+	list-style-position:outside;
+	margin:0 0 24px 0;
+}
+
+#cs-narrowcontent ul.career li {
+	margin:0 0 14px 0;
+}
+
+#cs-rightnav ul {
+	padding:0 0 0 20px;
+	list-style:disc;
+	list-style-position:outside;
+	margin:0 0 24px 10px;
+}
+
+#cs-rightnav ul li {
+	margin:0 0 12px 0;
+}
+
+#cs-narrowcontent ul.number {
+	padding:0 0 0 20px;
+	list-style-type:decimal;
+	list-style-position:outside;
+	margin:0 0 24px 10px;
+}
+
+#cs-narrowcontent ul.number li {
+	margin:0 0 6px 0;
+}
+
+
+
+
+
+/* NAVIGATION
+--------------------------------------------------*/
+#cs-leftnav ul {
+	list-style:none;
+	width:154px;
+}
+
+#cs-leftnav ul li {
+	width:154px;
+	border-top:1px solid #cacaca;
+}
+
+#cs-leftnav ul li.on,
+#cs-leftnav ul li:hover {
+	border-top:1px solid #000;
+}
+
+#cs-leftnav ul li a {
+	color:#999;
+	display:block;
+	width:154px;
+	min-height:14px;
+	line-height:14px;
+	padding:5px 0 10px;
+}
+
+
+#cs-leftnav ul li.on a,
+#cs-leftnav ul li a:hover {
+	color:#000;	
+}
+
+#cs-leftnav ul li ul {
+	visibility:collapse;
+	display:none;
+}
+
+#cs-leftnav ul li ul.up {
+	visibility:visible;
+	display:block;
+	width:144px;
+	padding:0 0 0 10px;
+	margin:0 0 10px 0;
+}
+
+#cs-leftnav ul li ul.up li {
+	text-transform:uppercase;
+	border:0;
+}
+
+#cs-leftnav ul.up li a {
+	color:#999;
+	line-height:12px;
+	min-height:100%;
+	padding:6px 0;
+}
+
+#cs-leftnav ul.up li a.on,
+#cs-leftnav ul.up li a:hover {
+	color:white;
+}
+
+#cs-content ul#sizing-nav {
+	width:100%;
+	height:23px;
+	margin:5px 0 0;
+}
+
+#cs-content ul#sizing-nav li {
+	float:left;
+	background:#fff;
+	margin:0 3px 0 0;
+	text-transform:uppercase;
+	line-height:11px;
+}
+
+#cs-content ul#sizing-nav li a {
+	color:#999;
+	padding:6px 12px;
+	display:block;
+}
+
+#cs-content ul#sizing-nav li a:hover {
+	background:#E6E6E6;
+	color:white;
+	padding:6px 12px;
+	line-height:11px;
+	display:block;
+}
+
+.ui-tabs .ui-tabs-hide {
+	display:none !important;
+}
+
+li.ui-tabs-selected a {
+	background:#E6E6E6;
+	color:white!important;
+	padding:6px 12px;
+	line-height:11px;
+	display:block;
+}
+
+#cs-content.tabbed { position:relative; margin-top:-7px; }
+#cs-content.tabbed .intro { width:444px; }
+#cs-content.tabbed .care-nav { width:260px; position:absolute; top:0; right:0; margin-top:6px; border-top:2px solid #e6e6e6; }
+#cs-content.tabbed #care > div { width:444px; }
+#cs-content.tabbed #care li a,
+#cs-content.tabbed li.ui-tabs-selected a { color:#888 !important; line-height:12px; margin:8px 0 5px 10px; padding:0; background:none; display:inherit; }
+#cs-content.tabbed #care li.ui-tabs-selected a { color:#000 !important; } 
+
+
+/* FORMS
+--------------------------------------------------*/
+#cs-wrapper form .input-row {
+	width:100%;
+	float:left;
+	margin:0 0 18px 0;
+}
+
+#cs-wrapper form .half-row {
+	width:208px;
+	float:left;
+	margin:0 18px 0 0;
+}
+
+#cs-wrapper form label {
+	font-size:9px;
+	text-transform:uppercase;
+	line-height:10px;
+	float:left;
+	letter-spacing:.05em;
+	width:100%;
+	margin:0 0 6px 0;
+}
+
+#cs-wrapper form select {
+	background: none repeat scroll 0 0 #E3E3E3;
+	border: 0 none;
+	color: white666;
+	float: left;
+	height: 24px;
+	margin: 5px 0;
+	padding: 3px 4px;
+	width: 208px;
+}
+
+#cs-wrapper form select option {
+	color:white;
+	background:#e3e3e3;
+	font-size:9px;
+	padding:4px 8px;
+}
+
+#cs-wrapper form input[type=text] {
+	background: none repeat scroll 0 0 #DDDDDD;
+	border: 0 none;
+	color: #000000;
+	font-size: 11px;
+	margin: 5px 0;
+	padding: 3px 4px;
+	width: 208px;
+}
+
+#cs-wrapper form input[type=checkbox],
+#cs-wrapper form input[type=radio]{
+	width:16px;
+	height:16px;
+	float:left;
+	border:0;
+	color:white;
+	background:#FFF;
+}
+
+#cs-wrapper form input.small {
+	width:120px;
+}
+
+#cs-wrapper form textarea {
+	width:440px;
+	height:136px;
+	border:0;
+	background:#e3e3e3;
+	color:white;
+	padding:2px;
+	color:white;
+}
+
+#cs-wrapper form input[type=submit] {
+	display:block;
+	width:84px;
+	height:32px;
+	border:0;
+	text-indent:-9999em;
+	overflow:hidden;
+	background:#000 url('/style/images/buttons/button-submit.png') 0 0 no-repeat;
+}
+#cs-wrapper form input[type=submit].addToBag {
+	background:#000 url('/style/images/buttons/button-add-to-bag.png') 0 0 no-repeat;
+	width:140px;
+	height:30px;
+}
+#cs-wrapper form input[type=submit].getBalance {
+	background:#000 url('/style/images/buttons/button-get-balance.gif') 0 0 no-repeat;
+	width:154px;
+	height:30px;
+}
+
+#cs-wrapper form input[type=submit]:hover {
+	background:white url('/style/images/buttons/button-submit_over.png') 0 0 no-repeat;
+	cursor:pointer;
+}
+#cs-wrapper form input[type=submit].addToBag:hover {
+	background:white url('/style/images/buttons/button-add-to-bag_over.png') 0 0 no-repeat;
+	cursor:pointer;
+}
+#cs-wrapper form input[type=submit].getBalance:hover {
+	background:white url('/style/images/buttons/button-get-balance_over.gif') 0 0 no-repeat;
+	cursor:pointer;
+}
+
+
+
+
+/* CAREERS/ABOUT HEADERS
+--------------------------------------------------*/
+
+#cs-header h1 {
+	width:750px;
+	height:258px;
+	float:left;
+	display:block;
+	text-indent:-9999em;
+	overflow:hidden;
+	position:absolute;
+	top:0; left:0;
+	z-index:1;
+}
+
+#cs-header h1.landing {
+	background:url('/style/images/company-en/co-career-hdr.jpg') 0 0 no-repeat;
+}
+
+#cs-header h1.choose {
+	background:url('/style/images/company-en/co-careerchoose-hdr.jpg') 0 0 no-repeat;
+}
+
+#cs-header h1.intern {
+	background:url('/style/images/company-en/co-careerintern-hdr.jpg') 0 0 no-repeat;
+}
+
+#cs-header h1.working {
+	background:url('/style/images/company-en/co-careerwork-hdr.jpg') 0 0 no-repeat;
+}
+
+#cs-header h1.about a {
+	width:750px;
+	height:258px;
+	float:left;
+	display:block;
+	text-indent:-9999em;
+	overflow:hidden;
+	background:url('/style/images/company-en/co-about-hdr.jpg') 0 0 no-repeat;
+}
+
+#cs-header a#search-careers {
+	display:block;
+	width:182px;
+	height:30px;
+	border:0;
+	text-indent:-9999em;
+	overflow:hidden;
+	background:#000 url('/style/images/company-en/co-search-btn.gif') 0 0 no-repeat;
+	position:absolute;
+	right:24px; bottom:24px;
+	z-index:99;
+}
+
+#cs-header a#search-careers:hover {
+	background:white url('/style/images/company-en/co-search-btn.gif') 0 -30px no-repeat;
+	cursor:pointer;
+}
+
+#cs-rightnav a#apply-now {
+	display:block;
+	width:114px;
+	height:30px;
+	border:0;
+	text-indent:-9999em;
+	overflow:hidden;
+	background:#000 url('/style/images/company-en/co-apply-btn.gif') 0 0 no-repeat;
+	float:left;
+	margin:10px 0 0 10px;
+
+}
+
+#cs-rightnav a#apply-now:hover {
+	background:white url('/style/images/company-en/co-apply-btn.gif') 0 -30px no-repeat;
+	cursor:pointer;
+}
+
+#cs-rightnav a.brand-download {
+	display:block;
+	width:258px;
+	margin:10px 0 35px 0;
+	background:url('/style/images/company-en/co-download-bg.gif') center bottom no-repeat;
+	color:white;
+}
+
+#cs-rightnav a.brand-download span {
+	padding:0 0 0 18px;
+	text-transform:uppercase;
+	line-height:21px;
+}
+
+#cs-rightnav a.brand-download:hover {
+	color:#000;
+	background:url('/style/images/company-en/co-downloadon-bg.gif') center bottom no-repeat;
+}
+
+#cs-rightnav a.brand-download img {
+	border:1px solid #ccc;
+	display:block;
+	margin:0 auto 6px;
+}
+
+#cs-rightnav a.brand-download:hover img {
+	border:1px solid #000;
+}
+
+#cs-wrapper a#timeline-back{
+	display:none;
+	width:143px;
+	height:19px;
+	border:0;
+	text-indent:-9999em;
+	overflow:hidden;
+	background:url('/style/images/company-en/co-back-btn.gif') 0 0 no-repeat;
+	float:left;
+	margin:0 6px 0 0;
+}
+
+#cs-wrapper a#timeline-back.show {
+	display:block;
+}
+
+#cs-wrapper a#timeline-back:hover {
+	background:url('/style/images/company-en/co-back-btn.gif') 0 -19px no-repeat;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+/* SIZE CHARTS
+--------------------------------------------------*/
+
+#cs-content .sizechart {
+	width:750px;
+	float:left;
+	margin:24px 0 0;
+}
+
+.sizechart.w-dresses {
+	display:block;
+	height:2150px;
+	background:url('/style/images/company-en/cs-sizechart-womensdresses.png') 0 0 no-repeat;
+}
+
+.sizechart.w-tops {
+	display:block;
+	height:499px;
+	background:url('/style/images/company-en/cs-sizechart-womenstops.png') 0 0 no-repeat;
+}
+
+.sizechart.w-bottoms {
+	display:block;
+	height:1300px;
+	background:url('/style/images/company-en/cs-sizechart-womensbottoms.png') 0 0 no-repeat;
+}
+
+.sizechart.w-coats {
+	display:block;
+	height:499px;
+	background:url('/style/images/company-en/cs-sizechart-womenscoats.png') 0 0 no-repeat;
+}
+
+.sizechart.w-access {
+	display:block;
+	height:950px;
+	background:url('/style/images/company-en/cs-sizechart-womensaccessories.png') 0 0 no-repeat;
+}
+
+.sizechart.w-body {
+	display:block;
+	height:652px;
+	background:url('/style/images/company-en/cs-sizechart-womensbodywear.png') 0 0 no-repeat;
+}
+
+.sizechart.w-shoes {
+	display:block;
+	height:346px;
+	background:url('/style/images/company-en/cs-sizechart-womensshoes.png') 0 0 no-repeat;
+}
+
+.sizechart.m-shirts {
+	display:block;
+	height:2200px;
+	background:url('/style/images/company-en/cs-sizechart-mensshirts.png') 0 0 no-repeat;
+}
+
+.sizechart.m-tops {
+	display:block;
+	height:479px;
+	background:url('/style/images/company-en/cs-sizechart-menstops.png') 0 0 no-repeat;
+}
+
+.sizechart.m-pants {
+	display:block;
+	height:1020px;
+	background:url('/style/images/company-en/cs-sizechart-menspants.png') 0 0 no-repeat;
+}
+
+.sizechart.m-jackets {
+	display:block;
+	height:500px;
+	background:url('/style/images/company-en/cs-sizechart-mensblazers.png') 0 0 no-repeat;
+}
+
+.sizechart.m-access {
+	display:block;
+	height:1215px;
+	background:url('/style/images/company-en/cs-sizechart-mensaccessories.png') 0 0 no-repeat;
+}
+

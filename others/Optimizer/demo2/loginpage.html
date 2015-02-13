@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Login</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/styles.css" type="text/css" id="style_link" >
+
+
+		<script src="js/html5shiv-printshiv.js"></script>
+		<script src="js/html5shiv.js"></script>
+		
+		
+	<script>
+		
+		function check_ie8()
+		{
+			var ie8="",n=-1;
+			ie8=""+navigator.appVersion;
+			n=ie8.search("8.0");  
+			 
+			 if(n>-1)
+			  {
+					//document.write("testing");
+					document.getElementById("style_link").href="css/ie8.css";
+			  }
+	
+		
+		}
+		
+	</script>
+	
+
+</head>
+
+<body class="loginPage" onload="check_ie8()">
+<div class="mainContainer">
+	<!-- header starts here -->
+	<header class="header" >
+    	<div class="row">
+        	<div class="col-xs-12 col-sm-6 col-md-5 col-lg-6">
+            	<img src="images/mustshare-logo.png" alt="Must Share" class="mainLogo ml20">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="login_section" >
+            	<div class="pull-right loginContainer">
+                	<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-right mr20 hidden-xs"><a href="#" class="loginBtn"></a></div>
+                	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-right" id="user_id" >User Id<span class="spacer"></span>:</div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="user_id_input" ><input type="text"></div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-right" id="password" >Password :</div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="password_input"><input type="text"><br><a id="forgot_password" href="#" class="frgtPassLink">Forgot Password?</a></div>
+                    <div class="space10 hidden-sm hidden-md hidden-lg"></div>
+                    <div class="hidden-sm hidden-md hidden-lg"><a href="#" id="login_btn" class="loginBtn mar0"></a></div>              
+                </div>                
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+    <!-- header ends here -->
+    <!-- main body starts here -->
+    <section class="main">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-xs-12 col-sm-5 col-md-6 col-lg-5 loginLeftMainIcons pad0 foripad" id="icons_div">
+                	<a href="#" style="cursor:default;" class="improveIcon"><span>Improve your business</span></a>
+                    <a href="#" style="cursor:default;" class="storeIcon"><span>Store your models</span></a>
+                    <a href="#" id="share_your_models" style="cursor:default;" class="shareIcon"><span>Share your models</span></a>
+                    <a href="#" style="cursor:default;" class="nolimitIcon"><span>No practical limitation</span></a>
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-6 col-lg-7 pad0" id="lab_pic_div" >
+                	<img src="images/mainloginImg.jpg" alt="Welcome to Must Share" width="100%" id="lab_pic" >
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 pad0" id="bottom_left_divs" >
+                	<div class="bgBlue text-center messageTxt mr10">
+                    	We invite you to take full advantage of model based<br>approach to R&D, Process and Product Developments 
+                    </div>
+                    <div class="space10"></div>
+                    <div class="bgBlue loginLeftBotIcons text-center mr10">
+                    	<a href="#" class="freeTrial"><span></span>Free Trial</a>
+                        <a href="#" class="learnMore"><span></span>Learn More</a>
+                        <a href="#" class="buyNow"><span></span>Buy Now</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 pad0" id="bottom_right_divs">
+                	<div class="bgBlue">
+                    	<h4>Features</h4>
+                        <ul>
+                        	<li>Improve your business competitiveness and profit</li>
+                        	<li>Handle linear as well as non-linear models</li>
+                        	<li>Store your models in one place and re-use them at any time!</li>
+                        	<li>User defined access too your models</li>
+                        	<li>Share your models with project members</li>
+                        	<li>Get easy access to models generated elsewhere in the organization</li>
+                        	<li>Run calculations, simulations and optimizations</li>
+                        	<li>No practical limitation in number of input and output parameters</li>
+                        	<li>Link together several models for optimization of the value chain</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    	<div class="clearfix"></div>
+    </section>
+    <!-- main body ends here -->
+    <footer class="footer">
+    	<div class="space10"></div>
+    	<div class="container">Copyright@MUST.as </div>
+        <div class="space10"></div>
+    </footer>
+</div>
+
+<script language="javascript" type="text/javascript" src="jquery-1.11.1.min.js"></script>
+</body>
+</html>

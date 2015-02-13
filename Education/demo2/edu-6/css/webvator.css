@@ -1,0 +1,250 @@
+ Background images 
+.footer_bg
+{
+	background-image:url(../images/cmn/city_councuil_of_kampala_bottom_image.gif);
+	width:970px;
+	height:90px;
+	
+}
+ Background colors 
+.kcc_directorates_box
+{
+	background-color:#FFFF9F;
+	width:180px;
+	
+}	
+.city_guide_box
+{
+	background-color:#B4D167;
+	border: 4px solid #ffffff;
+	width:280px;
+	height:80px;
+	vertical-align:top;
+}
+.highlights_box
+{
+	background-color:#ffffff;
+	border-right: 1px solid #BEC1BA;
+	width:297px;
+	height:80px;
+	vertical-align:top;
+}
+
+.what_on_in_kampala_box
+{
+	background-color:#ffffff;
+	width:300px;
+	height:80px;
+	vertical-align:top;
+}
+
+.border_left_right_box
+{
+	border-left: 1px solid #BEC1BA;
+	border-right: 1px solid #BEC1BA;
+}
+
+.border_left_right_bottom_box
+{
+	border-left: 1px solid #BEC1BA;
+	border-right: 1px solid #BEC1BA;
+	border-bottom: 1px solid #BEC1BA;
+}	
+
+.kcc_directorates_box_heading
+{
+	font-weight: bold;
+    font-size: 10pt;
+    color: #000000;
+    font-family: Verdana;
+    text-align: justify;
+	
+	
+}
+
+.kcc_directorates_box_text
+{
+	FONT-WEIGHT: normal;
+    FONT-SIZE: 7pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: justify;
+}
+
+.kcc_directorates_box_text A:link {color: #000000; font-weight:normal; text-decoration: underline}
+.kcc_directorates_box_textA:visited {color: #000000;  font-weight:bold; text-decoration: underline}
+.kcc_directorates_box_text A:active {color: #000000; font-weight:bold; text-decoration: none}
+.kcc_directorates_box_text A:hover {color: #000000; font-weight:bold; text-decoration: none;}
+
+.calendar {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9px;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana;
+}
+
+.text
+{
+    FONT-SIZE: 8pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: justify;
+}
+
+.heading_yellow
+{
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #E6D317;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: justify;
+}
+
+.heading_green
+{
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #106C21;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: justify;
+}
+
+.sitemap
+{
+	FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: #555555;
+    FONT-FAMILY: Verdana;
+}
+
+.heading_black
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10pt;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana;
+}
+
+.faq_heading
+{
+	FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+}
+
+.home_page_main_article_heading
+{
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 14pt;
+    COLOR: #555555;
+    FONT-FAMILY: Verdana;
+}
+
+.home_page_main_article_content
+{
+    FONT-FAMILY: Verdana;
+	FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: #555555;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: left;
+	vertical-align:top;    
+}
+
+.text_black
+{
+	FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: left;
+	vertical-align:top;
+}
+
+.text_white
+{
+	FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: justify;
+	vertical-align:top;
+}
+
+.kcc_advertisement_box
+{
+	background-color:#EEE9A5;
+	width:130px;
+	
+}
+
+.kcc_advertisement_heading
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8pt;
+	COLOR: #003173;
+	FONT-FAMILY: Verdana;
+	TEXT-ALIGN: center;
+}
+
+.home_list_heading
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8pt;
+	COLOR: #555555;
+	FONT-FAMILY: Verdana;
+	TEXT-ALIGN: left;
+}
+
+.home_list_centent
+{
+	FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: #555555;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: left;
+}
+
+.read_more
+{
+	FONT-WEIGHT: normal;
+    FONT-SIZE: 7pt;
+    COLOR: #514A16;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: left;
+}
+
+.read_more_black
+{
+	FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    TEXT-ALIGN: left;
+}
+
+
+.textbox {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #106C21;
+	border-right-color: #106C21;
+	border-bottom-color: #106C21;
+	border-left-color: #106C21;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.field_input {font-family: Arial, Helvetica, sans-serif; font-size: 8pt; width:280px; border: 1px solid #106C21;}
+
+
+A:link {color: #000000; font-weight:bold; text-decoration: underline}
+A:visited {color: #000000;  font-weight:bold; text-decoration: underline}
+A:active {color: #000000; font-weight:bold; text-decoration: none}
+A:hover {color: #000000; font-weight:bold; text-decoration: none;}

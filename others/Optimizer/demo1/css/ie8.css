@@ -1,0 +1,79 @@
+#login_section{}
+#login_btn{position:relative;top:-250px;left:290px;}
+#forgot_password{position:relative;top:8px;left:10px;}
+#password_input{position:relative;top:-183px;left:110px;}
+#password{position:relative;top:-155px;left:-240px;}
+#user_id_input{position:relative;top:-158px;left:110px;}
+#user_id{position:relative;top:-130px;left:-240px;}
+
+
+body {font-family:Verdana, Geneva, sans-serif;font-size:12px;margin:0px;padding:0px;}
+.header {background-color:#084d80;padding:15px 0px;height:111px;}
+.header a {color:#fff;text-decoration:underline;}
+.footer {border-top:1px solid #084d80;}
+.ml35 {margin-left:35px;}
+.ml20 {margin-left:20px;}
+.mr35 {margin-right:35px;}
+.mr20 {margin-right:20px;}
+.pad0 {padding:0px;}
+.mar0 {margin:0px !important;}
+.padR0 {padding-right:0px;}
+.padL0 {padding-left:0px;}
+.mr10 {margin-right:10px;}
+.row {margin:0px;}
+.loginContainer {max-width:350px;color:#fff;}
+.mainLogo {margin-top:5px;}
+.loginContainer div[class*='col-'] {padding:0px;}
+.loginContainer .text-right {padding-right:5px !important;line-height:30px;font-weight:bold;}
+.loginContainer .text-right .spacer {display:inline-block;width:20px;}
+.loginContainer input {margin-bottom:5px;background:none;border:1px solid #fff;padding:5px;}
+a.loginBtn {display:block;width:41px;height:41px;background:url(../images/mustshare-icons-sprite.png) 0px 0px no-repeat;margin-top:10px;}
+a.loginBtn:hover {}
+a.frgtPassLink {font-size:11px;margin-top:-3px;display:block;}
+a.frgtPassLink:hover {text-decoration:none;}
+
+.space10 {height:10px;overflow:hidden;clear:both;}
+
+.main {margin-top:12px;padding-bottom:20px;}
+
+.loginPage h4 {margin:0px 0px 5px 10px;}
+.messageTxt {height:96px;padding:25px 10px !important;font-size:14px;}
+.bgBlue {background-color:#3599cb;padding:10px;display:block;color:#fff;}
+
+.loginLeftBotIcons a {display:inline-block;color:#fff;text-decoration:underline;font-size:11px;}
+.loginLeftBotIcons a:hover {text-decoration:none;}
+.loginLeftBotIcons a:nth-child(2) {margin:0px 30px;}
+.loginLeftBotIcons a span {display:block;width:68px;height:68px;background:url(../images/mustshare-icons-sprite.png) 0px 0px no-repeat;}
+.loginLeftBotIcons a.freeTrial span {background-position:-72px -132px;}
+.loginLeftBotIcons a.learnMore span {background-position:0px -132px;}
+.loginLeftBotIcons a.buyNow span {background-position:-143px -132px;}
+
+.loginLeftMainIcons a {float:left;width:47.8%;background-color:#3599cb;height:203px;margin-bottom:10px;margin-right:10px;position:relative;}
+.loginLeftMainIcons a:hover {}
+.loginLeftMainIcons a span {position:absolute;bottom:0px;color:#fff;width:100%;display:block;bottom:10px;text-align:center;font-size:14px;}
+.improveIcon {background:url(../images/improve-icon.png) center center no-repeat;}
+.storeIcon {background:url(../images/store-icon.png) center center no-repeat;}
+.shareIcon {background:url(../images/share-icon.png) center center no-repeat;}
+.nolimitIcon {background:url(../images/no-limit-icon.png) center center no-repeat;}
+
+@media screen and (max-width:1045px) {
+	.foripad a {height:142px;background-size:30% auto;background-position:center 30%;}	
+	.messageTxt br {display:none;}
+}
+
+@media screen and (max-width:1000px) {
+	.ml20 {margin-left:0px;}
+	.loginContainer {float:left !important;margin-top:10px;}
+	.loginContainer .text-right {text-align:left !important;}
+	.loginContainer input {width:100%;}
+	
+	.loginLeftMainIcons a {width:48%; margin-right:5px;height:127px;background-size:50% auto;background-position:center 30%;}
+	.loginLeftMainIcons a span {font-size:11px;}
+	.messageTxt {height:auto;font-size:12px !important;margin:0px auto;}
+	.messageTxt br {display:none;}
+	.loginLeftBotIcons {margin:0px auto 10px auto;}
+	.loginLeftBotIcons a:nth-child(2) {margin:0px 20px;}
+}
+
+
+

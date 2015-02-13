@@ -1,0 +1,218 @@
+<html>
+	<head>
+	
+		<style>
+		#image_table{position:absolute;left:0;}
+		#image_table2{position:absolute;left:3324;}
+		
+		
+		</style>
+		
+		
+		<script>
+		
+		var timer=0;
+		var t1_left=0;t2_left=3324;
+		var t2=0;t1=0;
+		
+			function nithin()
+			{	
+			
+						if(document.getElementById("image_table2").style.left=="0px")
+						{
+						
+							document.getElementById("image_table").style.left=3324+"px";
+							t1_left=3324;
+							
+							/*t2++;
+							document.getElementById("test1").innerHTML="t2="+t2+"\n t1="+t1;*/
+							
+						}
+						
+						if(document.getElementById("image_table").style.left=="0px")
+						{
+							document.getElementById("image_table2").style.left=3324+"px";
+							t2_left=3324;
+							
+							/*t1++;
+							document.getElementById("test1").innerHTML="t2="+t2+"\n t1="+t1;*/
+						
+						}
+						
+					
+						
+				
+
+				
+					//document.getElementById("test").innerHTML=""+t1_left+"  "+t2_left;
+	
+				document.getElementById("image_table").style.left=t1_left+"px";
+				document.getElementById("image_table2").style.left=t2_left+"px";
+				
+				t1_left=parseInt(document.getElementById("image_table").style.left);
+				t2_left=parseInt(document.getElementById("image_table2").style.left);
+				
+				t1_left--;
+				t2_left--;
+				
+
+				timer=setTimeout(nithin,20);	
+						
+						
+			
+			
+			}
+		
+		</script>
+		
+	</head>
+	
+	<body onload="nithin()">
+	
+	
+	<!--<p id="test">Nithin</p>
+	
+	<p id="test1">Nithin</p>-->
+	
+	<table style="background-color:grey; height:20"  style="overflow: hidden;" id="image_table" >
+<tr >
+
+<td>
+ <img src="Images/1.jpg" style="height: 193;
+width: 298;">
+ </td>
+ <td>
+  <img src="Images/2.jpg" style="height: 193;
+width: 298;">
+  </td>
+  <td>
+   <img src="Images/3.jpg" style="height: 193;
+width: 298;">
+   </td>
+   <td>
+    <img src="Images/4.jpg" style="height: 193;
+width: 298;">
+	</td>
+	<td>
+	 <img src="Images/5.jpg" style="height: 193;
+width: 298;">
+	 </td>
+	 <td>
+	  <img src="Images/6.jpg" style="height: 193;
+width: 298;">
+	  </td>
+	  <td>
+	   <img src="Images/7.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>
+	   
+	   
+	   	  <td>
+	   <img src="Images/8.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>
+	  	  <td>
+	   <img src="Images/9.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>
+	   	  	  <td>
+	   <img src="Images/10.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>
+	   	  	  <td>
+	   <img src="Images/11.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>
+	   	  	  <td>
+	   <img src="Images/12.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>
+	   	  	  <td>
+	   <img src="Images/13.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>
+	   	 
+</tr>
+ 
+</table>
+
+<table style="background-color:grey; height:20" style="overflow: hidden;" id="image_table2" >
+<tr >
+
+<td>
+ <img src="Images/1.jpg" style="height: 193;
+width: 298;">
+ </td>
+ <td>
+  <img src="Images/2.jpg" style="height: 193;
+width: 298;">
+  </td>
+  <td>
+   <img src="Images/3.jpg" style="height: 193;
+width: 298;">
+   </td>
+   <td>
+    <img src="Images/4.jpg" style="height: 193;
+width: 298;">
+	</td>
+	<td>
+	 <img src="Images/5.jpg" style="height: 193;
+width: 298;">
+	 </td>
+	 <td>
+	  <img src="Images/6.jpg" style="height: 193;
+width: 298;">
+	  </td>
+	  <td>
+	   <img src="Images/7.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>
+	   
+	   
+	   	  <td>
+	   <img src="Images/8.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>
+	  	  <td>
+	   <img src="Images/9.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>
+	   		  	  <td>
+	   <img src="Images/10.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>
+	  	  <td>
+	   <img src="Images/11.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>
+	  	  <td>
+	   <img src="Images/12.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>	  
+	  	  <td>
+	   <img src="Images/13.jpg" style="height: 193;
+width: 298;">
+	   
+	   </td>	   
+</tr>
+ 
+</table>
+	
+	
+	</body>
+
+
+</html>

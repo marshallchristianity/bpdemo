@@ -1,0 +1,112 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>2hearts website for Iphone, Android, Smartphone Mobile Website Template | Contact :: w3layouts</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<link href="smartphone/css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="smartphone/js/mobile.js"></script>
+		<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+	</head>
+	<body>
+		<!---start-wrap---->
+		<div class="wrap">
+			<!---start-sidebar---->
+			<div id="w3-universal-nav">
+    	<ul id="header" id="top">
+    		<a href="index.html"><img src="smartphone/images/logo.png" alt=""/></a>
+    	</ul>
+    	<ul id="w3-menu-links" style="display: none;">
+    	</ul>
+    		</div>
+</div>
+<!-- The menu -->
+  <nav class="clearfix">
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+		<a href="#" id="pull">Menu</a>
+	</nav>
+	<div class="clear"> </div>
+		<!---start---content----->
+		<div class="wrap">
+		<div class="content">
+			<!---start-contect--->
+			<div class="contact">
+				<div class="section group">				
+				<div class="col span_2_of_3">
+				  <div class="contact-form">
+				  	<h3>Contact Us</h3>
+					    <form method="post" action="contact-post.html">
+					    	<div>
+						    	<span><label>Name</label></span>
+						    	<span><input name="userName" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						    	<span><label>E-mail</label></span>
+						    	<span><input name="userEmail" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						     	<span><label>Mobile</label></span>
+						    	<span><input name="userPhone" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						    	<span><label>Subject</label></span>
+						    	<span><textarea name="userMsg"> </textarea></span>
+						    </div>
+						   <div>
+						   		<span><input type="submit" value="Submit"></span>
+						  </div>
+					    </form>
+
+				    </div>
+  				</div>				
+			  </div>
+			</div>
+			<!---End-contect--->
+		<!---End---content----->
+		<div class="clear"> </div>
+		<div class="footer contact-footer">
+			<div class="wrap">
+			<div class="footer-left">
+				<p>Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+			</div>
+			<div class="clear"> </div>
+			
+		</div>
+	</div>
+	<!---End-wrap---->
+	</body>
+</html>
+

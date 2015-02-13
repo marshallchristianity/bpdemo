@@ -1,0 +1,16 @@
+#top_menu{margin:0px auto;width:1024px;height:110px;background-color:#01a54f;color:black;}
+#footer	{margin:50px auto;width:1024px;height:52px;background-color:#01a54f;color:white;}
+#footer_text{padding-top:20px;}
+#logo{float:left;}
+.links{text-decoration:none;color:white;}
+.menu{float:right;}
+.menu li{display:inline;padding:10px;border-right:1px solid white;}
+.menu li a{text-decoration:none;color:white;font-family:"Georgia";font-size:18px;}
+.menu li a:hover{color:#fff600}
+#last_menu{border-right:none !important;}
+#menus{margin-top:10px;padding-top:62px;}
+#icons li{display:inline;list-style:none;}
+#icon_menu{margin-top:90px;}
+#names{margin-left:0px;margin-top:-26px;}
+#color_picker{position:absolute;top:100px;left:-20px;}
+

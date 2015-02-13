@@ -1,0 +1,59 @@
+/* CSS Document */
+*{margin-bottom:0px;; margin-left:auto; margin-right:auto; margin-top:0px;}
+#clear{clear:both;}
+#main{width:780px;}
+#top_section{padding-left:28px; padding-right:29px; width:723px; padding-top:26px;}
+#top_logo{padding-top:15px; padding-right:54px; width:212px; float:left;}
+#top_menu_con{width:457px; float:right;}
+#but_home{width:114px; float:left;}
+#but_aboutus{width:113px; float:left;}
+#but_project{width:116px; float:left;}
+#but_contact{width:114px; float:right;}
+#banner{padding-top:35px; width:723px;}
+#body_con{width:723px;}
+#body_left_con{width:453px; float:left; padding-top:38px; padding-right:22px;}
+#body_left_wel_con{width:453px;}
+#wel_img{width:56px; padding-right:7px; float:left;}
+#wel_head{width:389px; float:right; padding-top:16px; margin-bottom:24px;}
+#wel_text{width:453px; }
+#body_left_ser_con{padding-top:40px; width:453px;}
+#ser_img{width:56px; padding-right:8px; float:left;}
+#ser_head{width:389px; float:right; padding-top:16px; margin-bottom:15px;}
+#ser_text{width:453px;}
+#ser_list{width:453px; margin-top:25px;}
+#ser_left_list{width:175px; float:left;}
+#ser_list_con{width:175px; margin-top:4px;}
+#ser_list_rcon{width:153px; margin-top:4px;}
+#ser_bullet_con{width:19px; padding-right:8px; float:left;}
+#ser_bullettext{width:148px; float:right; padding-top:3px;}
+#ser_bullettext2{width:126px; float:right; padding-top:3px;}
+#ser_mid_div{width:70px; background-image:url(../images/lisi_divider.gif); height:104px; background-position:center top; background-repeat:repeat-y; float:left;}
+#ser_right_list{width:153px; float:right; padding-right:55px;}
+#body_right_con{width:248px; float:right; padding-top:38px;}
+#body_right_news_con{padding-left:24px; width:224px;}
+#news_content_con{margin-top:30px; width:224px;}
+#news_bullet{width:44px; padding-right:13px; float:left;}
+#news_text{width:167px; float:right;}
+#body_right_icon_con{width:248px; padding-top:30px; margin-bottom:59px;}
+#footer{width:100%; background-color:#F5F5F5; margin-bottom:15px; height:50px;}
+#footer_menu{width:723px; padding-top:15px;}
+
+
+.h1{font-family:"AvantGarde Bk BT"; font-size:25px; color:#6CBBB0; font-weight:bold;}
+.h2{font-family:"AvantGarde Bk BT"; font-size:18px; color:#8BCE5D; font-weight:bold;}
+.boldheading{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#51B6BF; font-weight:bold;}
+.bodytext{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#949393; font-style:normal;}
+.ser_list{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#8BCE5D; font-weight:bold;}
+.datetext{font-family:Verdana, Arial, Helvetica, sans-serif; color:#6BB336; font-size:11px; font-weight:bold;}
+.contenthead{font-family:Verdana, Arial, Helvetica, sans-serif; color:#6FB2B7; font-size:11px; font-weight:bold;}
+
+.right_boldtext{font-family:Verdana, Arial, Helvetica, sans-serif; color:#50A0A7; font-size:11px; font-weight:bold;}
+.copyrighttext{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; color:#989898; font-style:normal;}
+
+a.readmore:link{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; color:#008296; font-style:normal;}
+a.readmore:visited{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; color:#008296; font-style:normal;}
+a.readmore:hover{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; color:#008296; font-style:normal; text-decoration:underline;}
+
+a.footertext:link{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#989898; font-style:normal;}
+a.footertext:visited{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#989898; font-style:normal;}
+a.footertext:hover{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#989898; font-style:normal;text-decoration:underline;}
