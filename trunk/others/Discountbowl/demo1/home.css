@@ -1,0 +1,39 @@
+#top_menu{margin:0px auto;width:1024px;height:110px;background-color:#01a54f;color:black;}
+#footer	{margin-top:100px;width:1024px;height:52px;background-color:#01a54f;color:white;}
+#footer_text{padding-top:20px;}
+#logo{float:left;}
+.links{text-decoration:none;color:white;}
+.menu{float:right;}
+.menu li{display:inline;padding:10px;border-right:1px solid white;}
+.menu li a{text-decoration:none;color:white;font-family:"Georgia";font-size:18px;}
+.menu li a:hover{color:#fff600}
+#last_menu{border-right:none !important;}
+#menus{margin-top:10px;padding-top:62px;}
+#food_type{margin-top:50px;margin-left:10px;font-family:'Georgia';font-size:18px;}
+#state_menu_div{margin:10px auto;width:1024px;color:black;font-family:'Georgia';background-color:#FFF18B;height:55px;box-shadow: 10px 10px 5px #888888}
+#state_menu_div ul{padding-left:0px;padding-top:10px;}
+#state_menu_div ul li{list-style-type: none;padding:20px;display:inline;}
+#state_name{font-family:'Times New Roman';font-size:20px;color:green;}
+
+#city_name{font-family:'Times New Roman';font-size:20px;color:black;}
+#city_name_ui li{list-style-type: none;}
+#area_name{font-family:'Times New Roman';font-size:20px;color:black;}
+#check_box_menus{position:fixed;top:220px;padding:10px;background-color:#f7f7f7;}
+#check_box_menus_ui{list-style-type: none;margin:0px auto;padding-left:0px;}
+.check_box_menus_ui_li{font-size:18px;padding:6px;color:red;}
+#search_results_div{float:left;margin-top:0px;width:800px;background-color:#FFFFA6;}
+#search_results_div_image{}
+.search_result_menu{float:left;margin-top:0px;display:inline;}
+.search_result_menu li{display:inline;padding-left:0px;}
+.menu_icon{padding-left:38px;padding-top:5px;cursor:pointer}
+.home_delivery{margin-top:0px;padding:0px;}
+.home_delivery li{display:inline;padding-left:0px;}
+.search_result_icons{padding-left:50px;padding-top:1px;}
+
+
+
+
+
+
+
+

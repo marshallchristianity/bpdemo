@@ -1,0 +1,1105 @@
+/*  This CSS file will only be included if Javscript is enabled in the user agent
+    It can be used for all styles that are only added when we progressively enhance the UI.
+*/
+
+#atg_store_returningCustomerLogin div.hid,
+#atg_store_newCustomerLogin div.hid,
+#atg_store_anonCustomerLogin div.hid{
+  display: none;
+}
+
+#atg_store_checkoutShippingAddress{
+  visibility: hidden;
+}
+
+#atg_store_productAction{
+  display:none;
+}
+
+
+
+
+/* Checkout Section, only renders like this with JS on due to rich nature of the section */
+
+/* order summary */
+#atg_store_checkout div.atg_store_orderSummary {
+	border-left: 1px solid #666;
+	float: right;
+	margin-left: 8px;
+	padding-bottom: 50px;
+	padding-left: 8px;
+	position: relative;
+	width: 290px;
+}
+#atg_store_checkout div.atg_store_orderSummary a {
+  color: #e5f288;
+  text-decoration: none;
+}
+#atg_store_checkout div.atg_store_orderSummary h2 {
+	padding: 0px 0px 10px 12px;
+}
+#atg_store_checkout div.atg_store_orderSummary ul {
+  margin: 1px 0 20px;
+  padding-left:0;
+}
+#atg_store_checkout div.atg_store_orderSummary ul li {
+	clear: left;
+	color: #000;
+	float: left;
+	font-weight: bold;
+	line-height: 1.3em;
+	padding: 11px 0px 8px 10px;
+	position: relative;
+	width: 280px;
+}
+#atg_store_checkout div.atg_store_orderSummary ul li.first {
+  padding-top: 22px;
+}
+#atg_store_checkout div.atg_store_orderSummary ul li div.quantity {
+	background: #DDD;
+	display: block;
+	float: left;
+	font-size: 12px;
+	height: 120px;
+	margin-right: 2px;
+	width: 80px;
+}
+
+
+#atg_store_checkout div.atg_store_orderSummary ul li dl,
+#atg_store_checkout div.atg_store_orderSummary ul li dt,
+#atg_store_checkout div.atg_store_orderSummary ul li dd{
+	float: left;
+	padding-right: 0px;
+	font-size: 12px;
+}
+#atg_store_checkout div.atg_store_orderSummary ul li dl {
+  float: left;
+}
+#atg_store_checkout div.atg_store_orderSummary ul li span.item {
+	display: block;
+	float: left;
+	width: 130px;
+}
+#atg_store_checkout div.atg_store_orderSummary ul li dd {
+	clear: left;
+	width: 100%;
+	color: #666;
+}
+#atg_store_checkout div.atg_store_orderSummary ul li dd p span {
+	text-transform: uppercase;
+}
+#atg_store_checkout div.atg_store_orderSummary ul li span.price {
+  position: absolute;
+  right: 18px;
+  top: 11px;
+}
+#atg_store_checkout div.atg_store_orderSummary ul li.first span.price {
+  top: 22px;
+}
+#atg_store_checkout div.atg_store_orderSummary ul li.last {
+  padding-bottom: 31px;
+}
+
+#atg_store_checkout div.atg_store_orderSummary ul li.atg_store_orderSummaryTotals {
+  background: none;
+  border-top: 1px solid #fff;
+  padding: 17px 0 10px 23px;
+  width:278px;
+}
+
+#atg_store_checkout div.atg_store_orderSummary ul li.atg_store_orderSummaryTotals dl {
+  position: relative;
+  width: 261px;
+
+}
+
+#atg_store_checkout div.atg_store_orderSummary ul li.atg_store_orderSummaryTotals dt {
+	color: #666;
+	font-size: 12px;
+}
+
+#atg_store_checkout div.atg_store_orderSummary ul li.atg_store_orderSummaryTotals dd {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: auto;
+	font-size: 12px;
+}
+
+#atg_store_checkout div.atg_store_orderSummary ul li.atg_store_orderSummaryTotals_2 {
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+	height: 16px;
+	line-height: 1;
+	padding: 20px 0px 12px 23px;
+}
+#atg_store_checkout div.atg_store_orderSummary ul li.atg_store_orderSummaryTotals_2 dl {
+  position: relative;
+  padding-right: 221px;
+}
+#atg_store_checkout div.atg_store_orderSummary ul li.atg_store_orderSummaryTotals_2 dd {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width:auto;
+}
+
+
+#atg_store_checkout dl dd.atg_store_actionEdit a{
+  color:#7F7F8C;
+}
+
+/* checkout option */
+
+
+#atg_store_checkout .atg_store_checkoutOption {
+  float: left;
+  width: 632px;
+  color: #000;
+  position: relative;
+}
+
+#atg_store_checkout .atg_store_checkoutOption h2 {
+	border-top: 1px solid black;
+	padding-bottom: 11px;
+	padding-top: 8px;
+	text-transform: uppercase;
+	width: 630px;
+}
+#atg_store_checkout .atg_store_checkoutOption h2 span {
+  font-weight: normal;
+  color: #2A799F;
+}
+
+#atg_store_checkout .atg_store_checkoutOption li dl dt {
+  float: left;
+  width: 312px;
+  margin-left: 2px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+#atg_store_checkout .atg_store_checkoutOption a:link,
+#atg_store_checkout .atg_store_checkoutOption a:visited,
+#atg_store_checkout .atg_store_checkoutOption a:hover,
+#atg_store_checkout .atg_store_checkoutOption a:active{
+	color:#000;
+	font-size: 12px;
+}
+
+
+
+/* Shipping  */
+
+/* Shipping Address Edit */
+
+#atg_store_shippingAddressEdit ul.atg_store_basicForm{
+  width:633px;
+}
+
+#atg_store_shippingAddressEdit ul.atg_store_basicForm li{
+ margin: 0;
+ padding: 5px 0 5px 10px;
+
+}
+
+#atg_store_shippingAddressEdit ul.atg_store_basicForm li.first{
+  padding-top:10px;
+}
+
+#atg_store_shippingAddressEdit ul.atg_store_basicForm li.last{
+  padding-bottom:10px;
+}
+
+#atg_store_shippingAddressEdit ul.atg_store_basicForm li label{
+  color:#000;
+}
+
+body.atg_store_pageShipping #atg_store_content {
+  min-height: 550px;
+}
+.atg_store_pageShipping .atg_store_formFooter, .atg_store_savedAddress .atg_store_formFooter {
+	border: 0;
+	clear: left;
+	font-size: 10px;
+	padding-top: 15px;
+	width: 630px;
+}
+.atg_store_pageShipping fieldset, .atg_store_newCreditCardSelect fieldset {
+	border: 0;
+}
+.atg_store_pageShipping .atg_store_checkoutContinue, .atg_store_savedAddress .atg_store_checkoutContinue {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	width: 630px;
+}
+.atg_store_AvailableShippingMethods p a{
+	padding: 10px;
+	position: relative;
+	top: 20px
+}
+#atg_store_checkoutShippingAddress{
+  position: relative;
+  height: 590px;
+}
+#atg_store_checkoutBilling{
+  position: relative;
+}
+
+
+
+#atg_store_checkoutShippingAddress .atg_store_basicForm select,
+#atg_store_checkoutBilling  .atg_store_basicForm select{
+  font-size: 11px;
+  max-width: 231px;
+  margin: 5px 0px;
+  padding: 3px 0px 3px 1px;
+  height: 20px;
+  color: #666;
+}
+
+#atg_store_checkoutBilling .atg_store_basicForm select#atg_store_creditCardOption{
+  margin-bottom:10px;
+}
+
+#atg_store_checkoutShippingAddress .atg_store_basicForm div {
+	font-size: 10px;
+	margin-left: 120px;
+	width: 150px;
+	color: #666;
+}
+
+#atg_store_checkoutShippingAddress .atg_store_basicForm input,
+#atg_store_checkoutShippingAddress .atg_store_basicForm textarea,
+#atg_store_checkoutBilling  .atg_store_basicForm input{
+  font-size: 11px;
+  width: 223px;
+}
+#atg_store_checkoutBilling .atg_store_basicForm input#atg_store_verificationNumberInput{
+  width: 48px;
+}
+.atg_store_createNewShippingAddress label{
+  width: 120px;
+}
+
+#atg_store_checkoutShippingAddress label,
+#atg_store_checkoutBilling  label{
+	color: #666;
+	font-size: 11px;
+	width: 145px;
+	text-transform: uppercase;
+}
+
+#atg_store_checkoutBilling .atg_store_giftCertificate label{
+	color:#666;
+}
+
+#atg_store_checkoutShippingAddress legend label,
+#atg_store_checkoutBilling legend label{
+	font-size: 12px;
+	width: 310px;
+	z-index: 100;
+	text-transform: uppercase;
+}
+* html #atg_store_checkoutShippingAddress legend label{
+  margin-left: -310px;
+}
+*+html #atg_store_checkoutShippingAddress legend label{
+  margin-left: -310px;
+}
+
+
+#atg_store_checkoutShippingAddress ul.atg_store_basicForm{
+  padding: 0px 0px 10px 0px;
+}
+
+
+.atg_store_chooseShippingAddresses,
+.atg_store_createNewShippingAddress{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-left: 310px;
+  width: 316px;
+  border:none;
+  margin-bottom: 0;
+}
+
+
+.atg_store_MultiShippingLink{
+	left: 5px;
+	position: absolute;
+	top: 205px;
+	width: 295px;
+	margin: 0;
+	border: 0;
+}
+
+.atg_store_AvailableShippingMethods{
+	left: 0px;
+	padding: 0px 0px 10px;
+	position: absolute;
+	top: 245px;
+	width: 295px;
+	border: 0;
+}
+
+
+.atg_store_MultiShippingLink a{
+  color: #2E80A4;
+}
+
+
+
+.atg_store_AvailableShippingMethods ul li{
+	padding: 10px 10px 0 0;
+}
+
+.atg_store_AvailableShippingMethods ul li.last{
+    padding-bottom:35px;
+}
+
+.atg_store_AvailableShippingMethods p{
+  padding: 0 10px 0 10px;
+  position:absolute;
+  bottom:10px;
+}
+
+.atg_store_AvailableShippingMethods .atg_store_shippingMethodTitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.atg_store_AvailableShippingMethods .atg_store_shippingMethodContent{
+	display: block;
+	padding: 2px 10px 5px 25px;
+	font-size: 12px;
+	color: #666;
+}
+
+
+.atg_store_shippingAddressOptions{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 295px;
+}
+
+#atg_store_checkoutShippingAddress .atg_store_shippingAddressOptions label{
+  color: #2a799f;
+  font-size: 1em;
+  zoom:1;
+}
+
+
+.atg_store_checkoutContinue{
+  position: absolute;
+  bottom: 0px;
+  left: 310px;
+  width: 300px;
+}
+
+
+/* Multi-Ship
+----------------------------------------------------------------------------------------------- */
+
+/* Shipping Method */
+
+#atg_store_checkoutMultiShippingAddress .atg_store_AvailableShippingMethods{
+  top: 0;
+  width: auto;
+  position: relative;
+  left: 0;
+  padding: 0 0 15px 0;
+  margin: 0;
+
+}
+
+#atg_store_checkoutMultiShippingAddress .atg_store_AvailableShippingMethods ul{
+  padding: 15px 0 0 0;
+}
+
+#atg_store_multiShipProducts thead th{
+  visibility: hidden;
+}
+
+
+
+#atg_store_multiShipProducts h3{
+  color:#000 !important;
+}
+#atg_store_multiShipProducts img{
+  margin: 0 10px 10px 10px;
+}
+
+#atg_store_multiShipProducts td{
+	padding: 10px;
+	vertical-align: top;
+	color: #999999;
+	font-size: 10px;
+}
+#atg_store_multiShipProducts thead tr{
+  /* position:relative; */
+}
+#atg_store_multiShipProducts tbody tr.last{
+  padding-bottom: 30px;
+  /* position:relative; */
+}
+#atg_store_multiShipProducts{
+  width: 633px;
+  padding-left: 5px;
+  /* position:relative; */
+}
+.atg_store_confirmShippingAddress h2{
+  margin-bottom:10px;
+}
+
+.atg_store_confirmShippingAddress a{
+  color:#7F7F8C;
+}
+.atg_store_confirmShippingAddress table th{
+	border-bottom: 1px solid #666;
+	color: #888;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 0px 8px 6px 5px;
+}
+
+
+.atg_store_confirmShippingAddress table tbody td{
+	padding: 16px 16px 16px 8px;
+	vertical-align: top;
+	width: 50%;
+	font-size: 10px;
+}
+
+.atg_store_confirmShippingAddress table tbody tr.last td{
+  background:none;
+}
+.atg_store_confirmShippingAddress .atg_store_giftShippingDestinationLabel{
+  font-weight:bold;
+  margin-bottom:10px;
+   display: block;
+}
+.atg_store_confirmShippingAddress li.atg_store_item{
+	margin-bottom:10px;
+	font-size: 12px;
+}
+
+.atg_store_confirmShippingAddress a.atg_store_actionEdit{
+  float:left;
+  clear:left;
+}
+
+.atg_store_confirmShippingAddress table tr.atg_store_confirmElectronicItem ul,
+.atg_store_confirmShippingAddress table tr.atg_store_confirmGiftListItem ul{
+  padding-top:25px;
+}
+
+
+.atg_store_confirmShippingAddress td.atg_store_giftShippingItems{
+  padding-top:42px;
+}
+
+
+
+/* Addresses */
+
+#atg_store_checkoutMultiShippingAddress{
+  padding-bottom: 20px;
+}
+
+#atg_store_checkoutMultiShippingAddress #atg_store_availableAddresses{
+  margin-top: 10px;
+  color: #878787;
+}
+
+#atg_store_checkoutMultiShippingAddress #atg_store_availableAddresses ul{
+  clear: left;
+  padding: 0 15px;
+}
+
+#atg_store_checkoutMultiShippingAddress #atg_store_availableAddresses h2
+{
+  float: left;
+  margin-bottom: 15px;
+}
+
+#atg_store_checkoutMultiShippingAddress #atg_store_availableAddresses ul{
+  width:290px;
+}
+
+#atg_store_checkoutMultiShippingAddress #atg_store_availableAddresses ul li{
+  float:left;
+  clear:left;
+  margin-bottom:10px;
+  width:290px;
+}
+
+
+#atg_store_checkoutMultiShippingAddress #atg_store_availableAddresses ul li span.atg_store_availableAddressesName{
+	float:left;
+	font-size: 12px;
+}
+
+#atg_store_checkoutMultiShippingAddress #atg_store_availableAddresses ul li a.atg_store_basicButton{
+  float:right;
+}
+
+#atg_store_checkoutMultiShippingAddress .atg_store_checkoutContinue{
+  text-align: right;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 633px;
+  padding: 15px 0 0 0;
+  margin: 15px 0 0 0;
+  float:left;
+  clear:left;
+}
+
+
+/* Add Address in Checkout */
+
+
+#atg_store_checkoutAddAddressdress{
+
+}
+
+#atg_store_checkoutAddAddress #atg_store_shippingInformation{
+  padding: 0 0 15px 0;
+}
+
+#atg_store_checkoutAddAddress #atg_store_shippingInformation ul.atg_store_basicForm{
+  padding: 15px;
+}
+
+#atg_store_checkoutAddAddress #atg_store_shippingInformation ul.atg_store_basicForm label{
+  color:#000;
+}
+
+#atg_store_checkoutAddAddress #atg_store_shippingInformation ul.atg_store_basicForm li.nickname input{
+  width:225px;
+}
+
+#atg_store_checkoutAddAddress .atg_store_checkoutAddAddressFormFields{
+  margin: 0;
+  padding: 0;
+}
+
+/* Electronic Shipping Form */
+
+#atg_store_giftEmailForm .atg_store_checkoutContinue{
+  text-align: right;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 633px;
+  border-top: 2px solid #429BC3;
+  padding: 15px 0 0 0;
+  margin: 15px 0 0 0;
+}
+
+#atg_store_giftEmailForm{
+  padding-top: 15px;
+}
+
+#atg_store_giftEmailForm .electronicShippingForm{
+	margin: 0;
+	padding:0;
+	padding-bottom:18px;
+}
+
+#atg_store_giftEmailForm #atg_store_profile_table{
+  padding-top:18px;
+
+}
+
+#atg_store_giftEmailForm #atg_store_profile_table li{
+  margin: 0;
+  padding: 0 15px 10px 15px;
+}
+
+#atg_store_giftEmailForm .atg_store_giftDetails a{
+  margin-top: 10px;
+  color: #878787 !important;
+  clear:left;
+  float:left;
+  width:150px;
+  text-align:center;
+}
+
+
+
+/*  Checkout Tab Status
+    Two possible states:
+    - Chosse a saved Shipping address (green tab at top)
+    - Create a new shipping address (green tab at the bottom)
+----------------------------------------------------------------------------------------------- */
+
+/* Choose a Saved Address
+----------------------------------------------------------------------------------------------- */
+
+.atg_store_createAddress .atg_store_chooseShippingAddresses div{
+  display: none;
+}
+
+
+.atg_store_chooseShippingAddresses{
+  z-index: 2;
+}
+
+
+
+#atg_store_availableCreditCards {
+	min-height: 262px;
+	padding: 10px 0px 20px 20px;
+	font-size: 10px;
+}
+
+
+#atg_store_availableCreditCards ul{
+  position:relative;
+}
+
+#atg_store_availableCreditCards ul li{
+  display: none;
+}
+
+#atg_store_savedCreditCardPicker{
+  padding:20px 0 0 20px;
+}
+
+#atg_store_savedCreditCardPicker label{
+  clear: left;
+}
+
+#atg_store_savedCreditCardPicker li{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+/* avaiable shipping address show and hide styles */
+
+#atg_store_availableShippingAddresses ul,
+#atg_store_giftShippingAddress ul{
+  height: 250px;
+  min-height: 250px;
+  width:316px;
+  word-wrap:break-word;
+}
+
+#atg_store_availableShippingAddresses ul li{
+  display: none;
+}
+.atg_store_chooseShippingAddresses legend label{
+  position: absolute;
+  top: 20px;
+  left: -309px;
+  width: 310px;
+  height: 51px;
+  padding-top: 25px;
+}
+
+.atg_store_createNewShippingAddress legend label{
+  position: absolute;
+  top: 96px;
+  left: -309px;
+  width: 310px;
+  height: 51px;
+  padding-top: 25px;
+}
+
+.atg_store_chooseShippingAddresses .atg_store_addressGroup{
+  padding: 45px 0 45px 10px;
+}
+
+.atg_store_chooseShippingAddresses .atg_store_addressGroup{
+  float: none;
+  width:auto !important;
+  height:auto;
+}
+
+.atg_store_chooseShippingAddresses div{
+  padding: 10px 10 20px 10px;
+}
+
+.atg_store_chooseShippingAddresses label{
+
+}
+
+.atg_store_chooseShippingAddresses div div{
+	padding: 0;
+	font-size: 10px;
+}
+
+
+/* available addresses - only one will show at a time, based on the select input choice */
+
+#atg_store_availableShippingAddresses ul li,
+#atg_store_giftShippingAddress ul li{
+	border-top: solid #666 1px;
+	border-bottom: solid #666 1px;
+	border-width: initial;
+	margin: 0px 20px;
+	padding: 20px 0px;
+}
+
+div#atg_store_availableShippingAddresses h3{
+	color: #666;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px 0px 10px;
+	font-size: 12px;
+}
+
+
+
+#atg_store_availableShippingAddresses a{
+  display: block;
+  text-align: right;
+}
+
+.vcard a{
+  color:#7F7F8C !important;
+}
+
+.vcard .ship_method{
+  margin-top:10px;
+}
+
+/* Create a New Address
+----------------------------------------------------------------------------------------------- */
+
+
+.atg_store_savedAddress .atg_store_createNewShippingAddress ul{
+  display: none;
+}
+
+
+.atg_store_createAddress .atg_store_createNewShippingAddress{
+    padding-bottom: 45px;
+}
+
+
+
+
+.atg_store_createAddress #atg_store_checkoutShippingAddress .atg_store_chooseShippingAddresses legend label{
+  position: absolute;
+  top: 20px;
+  left: -310px;
+  width: 310px;
+  height: 76px;
+  padding-top: 25px;
+}
+
+.atg_store_createAddress #atg_store_checkoutShippingAddress .atg_store_createNewShippingAddress legend label{
+  position: absolute;
+  top: 99px;
+  left: -309px;
+  width: 309px;
+  height: 51px;
+  padding-top: 25px;
+}
+
+
+
+#atg_store_confirmGiftMessage{
+  width:600px;
+  margin-bottom:20px;
+}
+
+#atg_store_storedCreditCards dt.atg_store_defaultCreditCard,
+.atg_store_savedAddresses dt.atg_store_defaultShippingAddress{
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+}
+#atg_store_storedCreditCards dt.atg_store_cardNickName,
+.atg_store_savedAddresses dt {
+	color: #666;
+	font-weight: bold;
+	font-size: 12px;
+}
+#atg_store_storedCreditCards dd,
+.atg_store_savedAddresses dd {
+	color: #888;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.atg_store_storedAddressActions{
+  margin-top: 15px;
+}
+
+.atg_store_storedAddressActions li{
+  margin-bottom:10px;
+}
+
+#atg_store_paymentInfoAddNewCard ul.atg_store_basicForm li span{
+  color:#7F7F8C;
+}
+
+/* BILLING */
+
+.atg_store_savedCreditCard,
+.atg_store_newCreditCard{
+	background: #fff;
+	left: 0px;
+	margin-left: 310px;
+	position: absolute;
+	top: 0px;
+	width: 316px;
+	border: 0;
+}
+
+.atg_store_giftCertificate{
+	left: 5px;
+	position: absolute;
+	top: 205px;
+	width: 295px;
+	margin: 0;
+	border: 0;
+}
+
+.atg_store_savedCreditCard ul{
+  padding: 0x 10px 0 0;
+}
+
+#atg_store_checkoutBilling  ul.atg_store_basicForm{
+  padding: 0px 0px 0 0;
+}
+
+#atg_store_checkoutBilling .atg_store_newBillingAddress ul.atg_store_basicForm{
+  padding: 0;
+}
+
+#atg_store_checkoutBilling .atg_store_newBillingAddress ul.atg_store_basicForm li{
+}
+
+.atg_store_newCreditCardSelect #atg_store_checkoutBilling{
+  height: 850px;
+}
+
+#atg_store_checkoutBilling  ul.atg_store_basicForm li{
+  padding: 0 0 10px 10px;
+  margin-bottom: 0;
+}
+
+body .atg_store_billingAddresses legend,
+body .atg_store_newBillingAddress legend{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0;
+  border: 0;
+  line-height: auto;
+}
+
+.atg_store_billingAddresses #atg_store_availableShippingAddresses{
+    background:none !important;
+    font-size: 10px;
+}
+
+.atg_store_billingAddresses #atg_store_availableShippingAddresses ul{
+  height: auto;
+  min-height: 0;
+
+}
+
+/* Billing Tabs */
+
+legend.atg_store_savedCreditCardTabs label{
+  position: absolute;
+  top: 23px;
+  left: -309px;
+  width: 310px;
+  height: 76px;
+  padding-top: 25px;
+}
+
+legend.atg_store_newCreditCardTabs label{
+  position: absolute;
+  top: 99px;
+  left: -309px;
+  width: 310px;
+  height: 51px;
+  padding-top: 25px;
+}
+
+.atg_store_newCreditCardSelect legend.atg_store_savedCreditCardTabs label{
+  position: absolute;
+  top: 22px;
+  left: -310px;
+  width: 310px;
+  height: 76px;
+  padding-top: 25px;
+}
+
+.atg_store_newCreditCardSelect legend.atg_store_newCreditCardTabs label{
+  position: absolute;
+  top: 101px;
+  left: -310px;
+  width: 310px;
+  height: 51px;
+  padding-top: 25px;
+}
+
+
+.atg_store_savedCreditCard ul,
+.atg_store_savedCreditCard div{
+  display: block;
+}
+
+.atg_store_newCreditCard ul,
+.atg_store_newCreditCard fieldset,
+.atg_store_newCreditCard div{
+  display: none;
+}
+
+
+.atg_store_newCreditCardSelect .atg_store_newCreditCard ul,
+.atg_store_newCreditCardSelect .atg_store_newCreditCard fieldset,
+.atg_store_newCreditCardSelect .atg_store_newCreditCard div{
+  display: block;
+  margin: 0;
+}
+
+
+ul.atg_store_creditSecurityCode .atg_store_whatsThis{
+  float:left;
+}
+
+
+body .atg_store_chooseSavedBillingAddresses{
+  padding-bottom: 0;
+}
+
+body .atg_store_chooseSavedBillingAddresses ul.atg_store_basicForm{
+  padding: 0px 0 0 0;
+}
+
+#atg_store_checkoutBilling ul.atg_store_basicForm li#previewEditLink{
+  padding-left:0;
+}
+
+body .atg_store_chooseSavedBillingAddresses li{
+  padding-left: 20px;
+}
+
+li.atg_store_creditCardOption{
+  padding-top: 30px;
+}
+
+div.atg_billing_savedCreditCardInfo{
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+}
+
+.atg_store_checkoutContinue{
+  position: absolute;
+  margin-bottom: 0;
+  bottom: 0px;
+  left: 0px;
+  width: 625px;
+
+}
+
+.atg_store_checkoutContinue .atg_store_basicButton{
+  float:right;
+}
+
+.atg_store_checkoutContinue label{
+  color: #2E80A4 !important;
+}
+
+.atg_store_checkoutOption #atg_store_confirmResponse p{
+  color:#000;
+  margin-bottom:10px;
+}
+
+.atg_store_checkoutOption #atg_store_confirmResponse a{
+  color:#7F7F8C !important;
+  text-decoration:underline;
+}
+
+#atg_store_billingWithRegistration dl{
+  margin:10px 0  0 15px;
+}
+#atg_store_billingWithRegistration dl dt{
+  margin:5px 0;
+}
+
+#atg_store_billingWithRegistration label{
+  color:#7F7F8C;
+}
+
+#atg_store_billingWithRegistration dd input{
+  margin-left:0;
+}
+
+/* FF2 Only Button Layout Fix */
+
+.atg_store_storedAddressActions li, .atg_store_storedCreditCardsActions li, x:-moz-any-link {height:26px;}
+.atg_store_storedAddressActions li, .atg_store_storedCreditCardsActions li, x:-moz-any-link, x:default {height:26px;}
+
+
+.atg_store_savedAddresses{
+  margin-bottom: 25px;
+}
+
+.atg_store_savedAddresses .atg_store_addressGroup dl{
+  padding-top:15px;
+}
+
+.atg_store_savedAddresses .atg_store_addressGroupDefault{
+  margin-top:-15px;
+}
+
+.shipMethod{
+  margin-top: 10px;
+}
+.atg_store_storedCreditCardsActions {
+  padding-top: 10px;
+}
+
+.atg_store_storedCreditCardsActions li{
+  margin-bottom:10px;
+}
+.atg_store_addressSelect{
+  padding-left:25px;
+  padding-bottom:15px;
+}
+.atg_store_addressGroup,
+.atg_store_paymentInfoGroup{
+  float: left;
+  min-width: 230px;
+  margin-right:10px;
+
+}
+
+.atg_store_addressGroup{
+   height:250px;
+}
+
+.atg_store_addressGroupSm{
+  float: left;
+  min-width: 230px;
+  margin-right:10px;
+  height:150px;
+  padding: 0px 0 0px 10px;
+
+}
+
+#atg_store_storedCreditCards .atg_store_paymentInfoGroup dl{
+  padding-top:15px;
+}
+
+#atg_store_storedCreditCards .atg_store_paymentInfoGroupDefault{
+  margin-top:-15px;
+}
+
