@@ -1,0 +1,3345 @@
+/*elements.css*/
+body {
+	background: #00213e url(http://dev.wavemaker.com/_media/bg_top.jpg) center 0 no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #707070;
+}
+code {
+	font-family: "Bitstream Vera Sans Mono", "Courier New", Monaco, Courier, monospace;	/* [3] */
+}
+p {
+	margin-bottom: 1em; 
+	line-height: 1.4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-size: 12px;
+	color: #707070;
+}
+pre {
+	font-family: "Bitstream Vera Sans Mono", "Courier New", Monaco, Courier, monospace;	/* [3] */
+	overflow: auto;
+	background-color: #EEE;
+	border: 1px solid #DDD;
+	padding: 4px;
+}
+ul {
+	margin-bottom: 20px;
+}
+ul ul {
+	margin: 0;
+	padding: 0 0 0 1.25em;
+}
+ol {
+	margin: 1em;
+	padding: 0 2em;
+}
+ol ol, ol ul, ul ol {
+	margin: 0;
+}
+li {
+	margin-bottom: 5px;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-size: 12px;
+	color: #707070;
+}
+caption {
+	margin: auto;
+}
+a, a:link, a:visited {
+	color: #087DC1;
+	text-decoration: underline;
+}
+a:hover {
+	color: #003d5c;
+	text-decoration: underline;
+}
+
+/* Section 13: Objects, Images, and Applets */
+img {
+	border: none;
+}
+
+/* Section 17: Forms */
+form { margin: 0px; }
+.button{
+	font-size: 1em;
+}
+
+/*classes.css*/
+
+.xwikisep, .xwikisep2 {
+	 display: none;
+}
+.clear, .clearfloats {
+	clear: both;
+}
+.none, .hidden {
+	display: none;
+}
+.currentspace{
+	font-weight: 900;
+	margin-top: 2px;
+}
+.extern{
+	background-image: url("corner.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.xwikipanelarrow{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 50px;
+	height: 10px;
+	visibility: hidden;
+}
+
+/*xwiki.css*/
+#xwikiad {
+	float: right;
+	margin-right: 30px;
+}
+#xwikireadonly {
+	color: red;
+}
+#xwikimessage {
+	margin: auto;
+	padding: 0px;
+	margin-top: 5px;
+}
+#xwikiuseravatar{
+	max-width: 150px;
+}
+
+/* Recognize velocity comments */
+.vcomment {
+	background-color: #ccccff;
+	font-style: italic;
+	margin-left: 5px;
+	margin-right: 10px;	
+}
+.edit_section {
+	float: right;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.diffmodifiedline {
+	border-left: 8px solid #888888;
+	padding-left: 10px;
+}
+.diffunmodifiedline {
+	border-left: 8px solid #dddddd;
+	padding-left: 10px;
+}
+.diffremoveword {
+	background-color: red;
+	text-decoration: line-through;
+}
+.diffaddword {
+	background-color: #7F7;
+}
+#changescontent, #changes-title, #changes-info, #changes-metadata, #changes-content, #changes-attachments, #changes-comments {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#changes-info {
+	width: 100%;
+	margin: auto;
+}
+#changes-info-boxes {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+#changes-info-boxes-inside {
+	width: 520px;
+	margin: auto;
+	text-align: left;
+}
+.changes-info-box {
+	float: left;
+	width: 200px;
+	border: 1px solid;
+	padding: 5px;
+}
+#changes-info-box-from {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#changes-info-box-to {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#changes-info-comment {
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 20px;
+}
+.changes-table {
+	width: 100%;
+	margin: auto;
+	margin-top: 30px;
+}
+#changes-info-table {
+	 width: 80%;
+	 border-spacing: 0px;
+}
+#changes-info-table td {
+	border: 1px solid;
+	border-spacing: 10px;
+}
+
+/*wiki.css*/
+#doctitle {
+	font-size: 2.8em;
+	line-height: 1.1em;
+	margin: 0 0 30px 0;
+}
+.heading-1, .heading-1-1,
+.heading-1-1-1, .heading-1-1-1-1 {
+	background-color: inherit;
+	padding: 0;
+}
+.heading-1 {
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: normal;
+	color: #00213e;
+	margin-bottom: .5em;
+}
+.heading-1-1 {
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	color: #00213e;
+	margin-bottom: 0;
+	font-style: normal;
+}
+.heading-1-1-1 {
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: .5em;
+	color: #333;
+}
+.heading-1-1-1-1 {
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: .5em;
+	color: #333;
+}
+.heading-1-1-1-1-1 {
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-bottom: .5em;
+	color: #666;
+}
+.heading-1, .heading-1-1, .heading-1-1-1, .heading-1-1-1-1, .heading-1-1-1-1-1, .heading-1-1-1-1-1-1{
+	clear: both;
+}
+.quote {
+	font-style: italic;
+	color: inherit;
+	background-color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+}
+.code {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding: 5px 5px 5px 5px;
+	color: inherit;
+	background-color: #eeeeee;
+	border: 1px dotted #003366;
+	font-family: courier, courier new, monospace;
+	font-size: 12px;
+	line-height: 100%;
+	white-space: pre;
+	width: 96%;
+	overflow: auto;
+}
+.java-keyword {
+	font-weight: bold;
+	color: #0000aa;
+	background-color: inherit;
+}
+.java-object {
+	color: #000088;
+	background-color: inherit;
+}
+.java-quote {
+	color: #00aa00;
+	background-color: inherit;
+}
+.xml-keyword {
+	font-weight: bold;
+}
+.xml-tag {
+	color: #0000aa;
+	background-color: inherit;
+}
+
+/* special formatting of a wiki table */
+.wiki-table {
+	margin: 20px auto;
+	empty-cells: show;
+	width: 80%;
+	font-size:100%;
+	text-align:left;
+	border: 20px solid #E5F0FE !important;
+	background-color: #E5F0FE;
+}
+.wiki-table td {
+	padding: 8px;
+	text-align:left;
+}
+.wiki-table th {
+	border-width: 0px;
+	border-style: inset;
+	text-align: left;
+	font-weight: 100;
+	font-size: 160%;
+	padding: 8px;
+	background-color: #E5F0FE;
+}
+.wiki-table .table-head td{
+	font-weight: 100 !important;
+	font-size: 160% !important;
+
+}
+.wiki-table .table-odd {
+	background-color: #fff;
+}
+.wiki-table .table-even {
+}
+.list {
+}
+.list-title {
+	font-weight: bold;
+}
+.list ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+/* wiki lists */
+ul.minus { list-style-type: square; }
+ol.roman { list-style-type: lower-roman; }
+ol.ROMAN { list-style-type: upper-roman; }
+ol.alpha { list-style-type: lower-alpha; }
+ol.ALPHA { list-style-type: upper-alpha; }
+ol.greek { list-style-type: lower-greek; }
+ol.GREEK { list-style-type: lower-greek; }
+.wikicreatelink {
+	text-decoration: none;
+}
+.wikicreatelinktext {
+	text-decoration: underline;
+	color: black;
+}
+.wikicreatelinkqm {
+	text-decoration: none;
+	font-size: 90%;
+	color: white;
+	border: 0px solid black;
+	background: #008;
+	padding: 3px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	margin-left: 3px;
+}
+.wiki-calendar-table *{
+	text-align: center;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+.wiki-calendar-table div{
+	font-size: 90%;
+	margin: 2px 0px;
+}
+* html .wiki-calendar-table div{
+	font-size: 80%;
+}
+.wiki-calendar-table {
+	border: 4px solid #C0D4E7;
+	font-size: 100%;
+	margin: auto;
+}
+.wiki-calendar-table td {
+	vertical-align: top;
+}
+.wiki-calendar-table th {
+	background-color: #FFF;
+}
+.wiki-calendar-table td, .wiki-calendar-table th {
+	text-align: center;
+	border: 1px #C0D4E7 solid;
+	height: 60px;
+	width: 90px;
+	padding-top: 0px !important;
+}
+.wiki-calendar-daynotinmonth{
+	color: #BBBBBB;
+	background-color: #E5E5E5;
+}
+.wiki-calendar-today{
+	background-color: #C0D4E7;
+}
+.wiki-calendar-today-notinmonth{
+	background-color: #D9E0E7;
+	color: #BBBBBB;
+}
+.wiki-calendar-daynamerow {
+	background-color: #C0D4E7 !important;
+}
+.wiki-calendar-daynamerow th{
+	background-color: #C0D4E7 !important;
+	color: #fff;
+	font-weight: 900;
+	height: 1.8em;
+}
+.wiki-calendar-daytitle {
+	background-color: #E8EEF7;
+	font-size: 75% !important;
+	padding: 0px 5px;
+	margin: 0px !important;
+}
+.wiki-calendar-daynotinmonth .wiki-calendar-daytitle {
+	background-color: transparent !important;
+}
+.wiki-calendar-today-notinmonth .wiki-calendar-daytitle {
+	background-color: transparent !important;
+}
+.wiki-calendar-today .wiki-calendar-daytitle {
+	background-color: transparent !important;
+}
+.wiki-calendar-today-notinmonth a, .wiki-calendar-daynotinmonth a{
+	color: #BBB !important;
+}
+.wiki-calendar-monthyearrow {
+	font-size: 140%;
+	font-weight: 100;
+	font-variant: small-caps;
+	color: #C0D4E7;
+	border: none !important;
+	width: auto !important;
+}
+.wiki-calendar-month-nav{
+	border: none !important;
+}
+.wiki-calendar-month-nav *{
+	font-size: 140%;
+	font-weight: bold;
+	color: #C0D4E7 !important;
+	text-decoration: none;
+}
+.wiki-calendar-month-nav .disabled{
+	color: #aaa !important;
+}
+.wiki-calendar-month-nav a:hover{
+	text-decoration: none !important;
+	color: #38c !important;
+}
+#body .prev-month{
+	text-align: left;
+	padding-left: 8px;
+}
+#body .next-month{
+	text-align: right;
+	padding-right: 8px;
+}
+.underline{
+	text-decoration: underline;
+}
+.workshop {
+	background-color: #FED;
+}
+.event .username {
+	font-size: 80%;
+}
+.article_title {
+	font-size: 120%;
+	border-bottom: 1px;
+}
+.article_content {
+	padding: 10px;
+}
+.article_date {
+	font-size: 120%;
+	border-bottom: 1px solid;
+}
+.article_footer {
+	border-top: 1px dotted;
+	font-size: 75%;
+	font-weight: bold;
+	color: gray;
+}
+
+/* Footnotes */
+sup.footnoteRef a{
+	font-weight: bold;
+	text-decoration: none;
+}
+sup.footnoteRef:target a{
+	background-color: #E5F0FE;
+	color: #C82;
+}
+div.footnotes{
+	font-size: 70%;
+	margin: 10px 0px;
+	border: 1px solid #ddd;
+}
+.footnotes ol{
+	padding-left: 1em;
+}
+.footnotes li{
+	padding: 0px 4px;
+	margin: 0px;
+}
+.footnotes li:target{
+	background-color: #E5F0FE;
+}
+a.footnoteBackRef{
+	text-decoration: none;
+	font-weight: bold;
+}
+.pagedNavigation {
+	text-align: center;
+	padding: 8px 0px;
+	margin: auto;
+}
+.pagedNavigation span{
+	padding: 0px 8px;
+}
+.pagedNavigation .pagedLink{
+	background-color: #E5F0FE;
+}
+.pagedNavigation .inactive{
+	color: #CCC;
+}
+.pagedNavigation .pagedLink a{
+	text-decoration: none;
+	color: #2E5A87 !important;
+}
+.pagedNavigation .pagedLink a:hover{
+	color: #D70 !important;
+}
+
+/*rss.css*/
+.rssfeed {
+	padding: 10px;
+	border: 1px dotted #003366;
+	width: 30%;
+}
+.rsschanneltitle {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 10px;
+	padding: 5px;
+	text-align: center;
+	background-color: #BDDE7B;
+}
+.rssitemtitle {
+	margin-bottom: 5px;
+}
+.rssitem {
+	margin-bottom: 10px;
+}
+
+/*screenlayout.css*/
+/**
+
+General layout of the page
+for @media screen displays
+
+**/
+
+body {
+	padding: 30px 0 0 0;
+	margin: 0 ;	/* padding et margin nul pour emulation min width*/
+}
+
+#xwikimaincontainer{
+	margin-bottom: 40px;
+    width: 1034px;
+	background: #fff;
+    margin: 0 auto;
+}
+#xwikimaincontainerinner{
+	text-align: left;
+	width: 1034px;
+	background: #fff;
+}
+html > body .minwidth, html > body .minwidthb, html > body .minwidthc{
+	display: none;
+}
+.minwidth, .minwidthb, .minwidthc{
+	width: 720px;
+	height: 0px;
+}
+* html .minwidth, * html .minwidthb, * html .minwidthc{
+	height: 1px !important;
+	overflow: hidden;
+}
+.minwidthb{
+	width: 520px;
+}
+.minwidthc{
+	width: 438px;
+}
+.layoutsection{
+	clear: both;
+}
+
+#contentcontainer{
+	z-index: 1;
+background: #fff;
+}
+#xwikieditor{
+	border-right: 310px solid;
+	z-index: 1;
+}
+
+/*
+---------------------------------------
+Global header
+---------------------------------------
+*/
+#headerglobal{
+	display: block;
+	min-height: 100px;
+	z-index: 1;
+}
+#globallinks {
+	margin-left: 40px;
+}
+.editbody #headerglobal{
+	border-right:310px solid #fff;
+}	
+.editbody {
+	width: 310px;
+	margin-right: -310px;
+}
+#globalmenu {
+	text-align: left;
+ padding-bottom: 15px;
+}
+#globalmenu .glink {
+	display: block;
+}
+#globalmenu #headerlanguages a{
+	text-transform: capitalize;
+}
+#globalmenu span {
+	display: none;
+}
+#globalmenu a.glink, 
+#globalmenu a:link.glink, 
+#globalmenu a:visited.glink	{
+	float: left;
+	color: #087dc1;
+	text-decoration: underline;
+}
+#globalmenu a:hover.glink {
+	color: #003d5c;
+}
+#company{
+	float: left;
+	width: 100%;
+}
+#companylogo{
+	padding: 3em 0 0 40px;
+}
+#globaldoctitle {
+	display: none; /*pour Ã©viter pb dans IE -- a regler*/
+}
+#globaldoctitle h1{
+}
+
+/*
+---------------------------------------
+Space header, footer
+---------------------------------------
+*/
+#headerspace {
+	padding-top: 10px;
+}
+#headerspace hr, #footerglobal hr{
+	display: none;
+}
+#breadcrumbs {
+	padding-left: 40px;
+	padding-top: 2px;
+}
+* html #breadcrumbs {
+	width: 100%;
+}
+#footerglobal, #headerspace {
+	clear:both;
+}
+#xwikilicence {
+	float: right;
+	clear: right;
+	margin-right: 5px;
+}
+#xwikidocinfo {
+	width: 100%;
+}
+#xwikiplatformversion {
+	float: left;
+	margin-left: 5px;
+}
+
+/*
+---------------------------------------
+Content
+---------------------------------------
+*/
+#contentcontainerinner, #xwikieditorinner {
+	width: 100%;
+	background-color: #FFF;
+}
+#contentcolumn {
+	float: right;
+	padding: 0px;
+}
+* html #contentcolumn {
+	width: auto;
+}
+.main {
+	padding: 0 40px 20px 40px;
+}
+.leftsidecolumns{
+	float: left;
+	width: 100%;
+}
+.content{
+	border-right: 200px solid;
+	border-left: 200px solid;
+}
+.contenthideleft{
+	border-right: 200px solid ;
+	border-left: 0px solid ;
+background: #fff;
+}
+.contenthideright{
+	border-right: 0px solid ;
+	border-left: 240px solid;
+}
+#contentcontainer.contenthidelefthideright{
+	border-right: 0px solid ;
+	border-left: 0px solid ;
+}
+#editcolumn{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+#actionmenu{
+	position: absolute;
+	top: 44px;
+	padding-left: 40px;
+	width: 500px;
+}
+#xwikieditcontent textarea#content {
+	width: 100%;
+}
+.layoutsubsection.about{
+	border: none;
+	text-align: right;
+	font-style: italic;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+/*
+---------------------------------------
+Zone for Comments, attachments, History... 
+---------------------------------------
+*/
+#xwikidata{
+	padding: 0px;
+	border: none;
+}
+.xwikiintracontent{
+	margin: 0px;
+}
+
+/*
+---------------------------------------------
+"Message Boxes"
+---------------------------------------------
+*/
+fieldset.xwikimessage{
+	display: block;
+	float: none;
+	width: 480px;
+	margin: auto;
+	border: 2px solid #BBB;
+	border-top: 8px solid #BBB;
+	padding: 0px 8px 16px;
+}
+html > body fieldset.xwikimessage{
+	padding-top: 8px;
+}
+fieldset.xwikimessage legend {
+	font-weight: bold;
+	font-size: 110%;
+	padding: 2px 8px;
+	margin: 0px;
+}
+fieldset.xwikimessage .xwikimessage{
+	text-align: center;
+	font-weight: bold;
+	font-size: 110%;
+}
+fieldset.xwikimessage .buttons {
+	text-align: center;
+}
+fieldset.xwikimessage .buttons a {
+	text-decoration: none;
+	margin: 8px;
+}
+.button{
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+.topbuttons{
+	margin-bottom: 5px;
+}
+.bottombuttons{
+	margin-top: 5px;
+}
+
+/*
+----------------------------------------------
+Comments
+----------------------------------------------
+*/
+.xwikicomment {
+}
+#xwikidata #commentscontent{
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+}
+#comments, #attachments {
+	padding: 0px 20px;
+}
+#xwikidata .xwikititlewrapper{
+	cursor: pointer;
+}
+.xwikiintratitle{
+	background: transparent url("icons/black-content-more.png") right center no-repeat;
+	font-size: 160%;
+	font-weight: 400;
+	font-style: normal;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+.exp .xwikiintratitle{
+	background: transparent url("icons/black-content-less.png") right center no-repeat;
+}
+
+#attachmentscontent table{
+	border: none;
+}
+.mime{
+	text-align: center;
+}
+.xwikicomment{
+	padding: 10px 24px;
+	position: relative;
+	overflow: hidden;
+}
+.commentspacer{
+	display: none;
+}
+#comments .odd{
+	background-color: #FFF;
+}
+#comments .even{
+	background-color: #E5F0FE;
+}
+.commentavatar{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 54px;
+}
+.commentavatar img{
+	width: 3.5em;
+	display: block;
+	margin: auto;
+}
+.commentheader{
+	padding: 6px 0px;
+}
+.commentauthor{
+	font-size: 130%;
+	font-weight: 900;
+}
+.commentauthor a{
+	text-decoration: none;
+	color: #000 !important;
+}
+.commentcontent{
+
+}
+.xwikibuttonlink a{
+	background-color: #BBB;
+	padding: 2px 4px;
+	text-decoration: none;
+	font-weight: bold;
+}
+table.xwikidatatable{
+	margin: 8px auto;
+}
+table.xwikidatatable, table.xwikidatatable th{
+	border: 1px solid #DDD;
+}
+table.xwikidatatable td{
+	padding: 2px 8px;
+}
+.xwikiintracontent legend{
+	border: 1px solid #ddd;
+	padding: 2px 4px;
+}
+.xwikiintracontent fieldset{
+	border-color: #ddd;
+	border-style: solid;
+	padding: 8px 8px;
+}
+.xwikiintracontent legend{
+	font-size: 110%;
+	font-weight: bold;
+	cursor: pointer;
+	margin-bottom: 8px;
+}
+html > body .xwikiintracontent legend{
+	margin-bottom: 0px;
+}
+.xwikiintracontent fieldset.collapsed{
+	border: none;
+}
+.xwikiintracontent fieldset.collapsed legend{
+	margin-left: 2px;
+}
+.xwikiintracontent fieldset.collapsed div{
+	display: none;
+}
+.xwikiintracontent fieldset.expanded .expands{
+	display: none;
+}
+.commentsno, .attachmentsno{
+	font-size: 50%;
+	background: transparent url("icons/black-comment2.png") center no-repeat;
+	padding: 11px 24px 13px;
+	font-weight: 900;
+}
+.attachmentsno{
+	background: transparent url("icons/black-doc2.png") center no-repeat;
+}
+
+/*
+---------------------------------------
+Menu
+---------------------------------------
+*/
+
+
+#actionmenu a{
+	text-decoration: none;
+}
+.rightmenu{
+	position: absolute;
+	left: 215px;
+	top: -3px;
+}
+.rightmenu a{
+	float: left;
+	text-align: left;
+	text-decoration:none; 
+	height:2em;
+	line-height:1.9em;
+}
+.leftmenu2 {
+	 text-align: left;
+}
+.topmenuentry{
+	float: left;
+	text-align: left;
+	border: none; 
+	margin-right: 5px;
+}
+.submenu{
+	display: block;
+	width: 120px;
+	text-align: left;
+	position: absolute;
+	margin-top: -1px;
+	margin-left: 0px;
+	
+}
+.topmenuentry .tme-extensible {
+	margin-right: 15px;
+}
+
+.topmenuentry a, .topmenuentry a:link, .topmenuentry a:visited, .topmenuentry a:active{
+/*	display:block; */
+	text-decoration:none; 
+/*	padding-right: 10px;*/
+}
+
+.submenu .submenuitem{
+	display: block;
+	padding: 2px;
+}
+.submenu .submenuseparator {
+	display: block;
+	font-size: 1px;
+	line-height: 1px;
+}
+.submenu.hidden{
+	display: none;
+}
+.submenuitem a, .submenuitem a:link, .submenuitem a:visited, .submenuitem a:active	{
+	display:block;
+	width: auto;
+	font-size:0.8em;
+	font-weight: bold;
+	text-decoration:none; 
+	height:auto; 
+	padding:1px 3px;
+	line-height:1.5em;
+
+}
+
+/*
+---------------------------------------
+Editors
+---------------------------------------
+*/
+#xwikieditorstitles, #xwikiviewerstitles{
+	display: none;
+}
+
+/*
+---------------------------------------
+Tabs
+---------------------------------------
+*/
+ul.xwikitabbar{
+	padding: 4px 0px;
+	margin: 0px;
+}
+.xwikitabbar li{
+	display: inline;
+	padding: 5px 0px;
+	list-style-type: none;
+	border: 1px solid;
+	border-bottom: none;
+	margin-right: 2px;
+	margin-top: 2px;
+}
+html > body .xwikitabbar li{
+	padding: 5px 0px;
+}
+.xwikitabbar li a{
+	padding: 5px 2px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.xwikitabbar li a:hover{
+	text-decoration: none;
+}
+.xwikitabbar li.active{
+	border: 1px solid;
+	border-bottom: 3px solid;
+}
+.xwikitabbar li.active a:hover{
+	cursor: default;
+}
+#xwikicontentedit{
+	border: 1px solid;
+}
+
+/*
+---------------------------------------
+Panels
+---------------------------------------
+*/
+
+#globalsearch {
+	margin: 0px;
+	padding: 0;
+}
+#globalsearch input{
+	display: inline !important;
+}
+#globalsearch input.button{
+	vertical-align: middle;
+	font-size: 1em;
+	border: 0px;
+	padding: 0px;
+}
+#rightPanels, #leftPanels {
+	position: relative;
+	float: left;
+	width: 200px;
+	padding-top: 0px;
+	
+}
+
+#rightPanels{
+	margin-right: -200px;
+}
+#leftPanels {
+	margin-left: -220px;
+}
+.panels{
+}
+html > body .panels{
+	margin-top: 0px;
+}
+.panels.left {
+	float: left;
+	clear: none;
+	margin-left: 0px;
+}
+.panels.right {
+	float: right;
+	clear: right;
+	margin-right: 0px;
+}
+.panel, .fakepanel{
+	color: #000;
+	width: 200px;
+	display: block;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	border: 0px solid;
+}
+.placeholder{
+	width: 200px;
+}
+html > body #dragbox {
+	width: 198px !important;
+}
+#xwikinavcontainer{
+	margin-bottom: 20px;
+}
+.fakepanel{
+	display: none;
+	height: 320px;
+}
+#editPanels.panels{
+	width: 310px;
+	float: left;
+	position: relative;
+	margin-right: -310px;
+}
+#editPanels .panel{
+	width: 310px;
+}
+.collapsed .xwikipanelcontents{
+	display: none;
+}
+span.panelitem{
+	display: block;
+}
+span.pitemseparator{
+	display: none;
+}
+.panelcontainer{
+	height: 200px;
+	overflow: hidden;
+	border: 1px inset #444;
+	padding: 3px;
+}
+.panelitemc{
+	height: 256px;
+	margin: 0px 4px;
+	width: 210px;
+	float: left;
+}
+.panelitemc .label, .panelitemc .xwikibuttonlink{
+	text-align: center;
+}
+
+/*
+----------------------------------
+Scriptaculous Acordeon
+----------------------------------
+*/
+#xwikisyntaxhelp {
+	margin-top:6px; 
+	border-top-width:1px; 
+	border-top-style:solid;
+	border: none;
+}
+.accordionTabContentBox {
+	overflow: hidden !important;
+}
+.accordionTabTitleBar h6{
+	margin: 0px;
+	padding: 0px 4px;
+}
+#editPanels .accordionTabContentBox{
+	border: none;
+	overflow: auto !important;
+}
+#editPanels .accordionTabContentBox table{
+	border: none;
+}
+.accordionTabContentBox table th{
+	border-bottom: 1px solid #DDD;
+	text-align: center;
+}
+#xwikihelptitlesContent h1, #xwikihelptitlesContent h2, #xwikihelptitlesContent h3, #xwikihelptitlesContent h4, #xwikihelptitlesContent h5, #xwikihelptitlesContent h6{
+	margin: 0px;
+	text-align: right;
+}
+.accordionTabTitleBar{
+	border: 1px solid #FFF;
+	cursor: default;
+}
+
+/*
+-----------------------------
+Misc
+-----------------------------
+*/
+#xwikihelplistsContent ul, #xwikihelplistsContent ol{
+	margin: 0px;
+}
+#contentcolumn .panel.large{
+	width: 290px;
+}
+.accordionTabTitleBar tt{
+	font-style: normal;
+	font-size: 150%;
+	font-weight: 100;
+	padding: 0px 4px;
+}
+td.label{
+	text-align: right;
+	padding-right: 4px;
+}
+#xwikiclassproperties, #xwikiobjects{
+	border: 1px solid #DDD !important;
+	overflow: hidden;
+}
+.center{
+	text-align: center;
+}
+.padded{
+	padding: 8px;
+}
+#xwikihelpsyntax{
+	border-top: 1px solid #DDD;
+	padding: 2px 6px;
+	margin: -2px 1px 0px;
+}
+.editactions{
+	border: none !important;
+	margin-top: 10px;
+	padding: 0px;
+}
+#historycontent td{
+	padding: 2px;
+}
+#xwikiuserprofile th{
+	background-color: transparent;
+	text-align: right;
+}
+#xwikiuserprofile td, #xwikiuserprofile th{
+	padding: 4px;
+}
+#xwikiobjects td{
+	vertical-align: top;
+}
+
+html > body .xwikidatatable{
+	width: 100%;
+}
+.xwikiuserblog .rssfeed {
+	width: 200px;
+	float: right;
+	border: 2px solid;
+}
+.edit_section{
+	visibility: hidden;
+	display: block;
+	overflow: hidden;
+	height: 24px;
+	width: 24px;
+}
+.edit_section a{
+	visibility: visible;
+	position: relative;
+	top: -1.2em;
+	background: transparent url("icons/black-edit.png") left bottom no-repeat;
+	padding: 0px 10px 20px;
+}
+
+/*
+------------------------
+Page Layout Selection
+------------------------
+*/
+
+td div.pagelayoutoption{
+	margin: 0px auto;
+	width: 106px;
+}
+div.layoutmaquette{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	padding: 2px;
+}
+div.lmleftcolumn, div.lmrightcolumn{
+	width: 20px;
+	height: 60px;
+	border: 1px solid #aaa;
+	background-color: #ddd;
+	float: left;
+}
+div.lmrightcolumn{
+	float: right;
+}
+div.lmcontentcolumn{
+	border: 1px solid #aaa;
+	background-color: #eee;
+	height: 90px;
+}
+#leftcolumn div.lmcontentcolumn{
+	margin-left: 24px;
+}
+
+#rightcolumn div.lmcontentcolumn{
+	margin-right: 24px;
+}
+
+#bothcolumns div.lmcontentcolumn{
+	margin-left: 24px;
+	margin-right: 24px;
+}
+div.pagelayoutoption:hover .layoutmaquette{
+	background-color: #ffd;
+}
+div.pagelayoutoption:hover .lmcontentcolumn{
+	background-color: #ddd;
+}
+div.pagelayoutoption:hover .lmleftcolumn,
+div.pagelayoutoption:hover .lmrightcolumn{
+	background-color: #acf;
+}
+div.pagelayoutoptions > table{
+	width: 100%;
+	text-align: center;
+}
+div.pagelayoutoptions td{
+	padding: 2px;
+	vertical-align: bottom;
+}
+#selectedoption{
+}
+#selectedoption .lmcontentcolumn{
+	background-color: #acf;
+}
+#selectedoption .lmleftcolumn,
+#selectedoption .lmrightcolumn{
+	background-color: #369;
+}
+.pagelayoutoption label{
+	color: #aaa;
+}
+#selectedoption label, .pagelayoutoption:hover label{
+	color: #000;
+}
+.hastooltip{
+	border-bottom: 1px dotted #000;
+	cursor: help;
+}
+#dhtmltooltip{
+	border: 1px solid #aaa;
+	padding: 2px 4px;
+	background-color: #ffd;
+	text-align: justify;
+	position: absolute;
+}
+#panelwizardbuttons{
+	padding: 8px 5px 0px;
+	margin: 8px -5px 0px;
+	border-top: 1px solid #ddd;
+	text-align: left;
+}
+.alleditcontent{
+	position: relative;
+	width: auto;
+	margin: 20px 20px 0px 20px;
+}
+.floatcontainer{
+	overflow: hidden;
+}
+#xwikieditcontent{
+	border: 2px solid #3381CC;
+	padding: 3px 8px 3px 3px;
+	overflow: auto;
+}
+#xwikieditcontent div{
+	overflow: hidden;
+}
+* html #xwikieditcontent{
+	padding: 0px 3px 3px 3px;
+}
+.editinfo{
+	height: 2em;
+	font-weight: bold;
+	font-size: 1em;
+	line-height: 2em;
+	display: none;
+}
+#edit{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+#xwikitext{
+	clear: both;
+}
+#panelsBackground{
+	height: 20px;
+	background-color: #fff;
+}
+#xwikidoctitleinput{
+	width: 100%;
+	font-size: 150%;
+}
+* html form{
+	margin-top: 0px;
+}
+.xwiki-form-listclass input[type="checkbox"] {
+	float: none;
+	display: inline;
+	margin-right: 2px;
+}
+.xwiki-form-listclass {
+	margin-right: 10px;
+}
+
+/**
+Attachments
+*/
+div.attachment {
+	overflow: hidden;
+	clear: both;
+	margin: 8px 0px;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	font-size: 85%;
+}
+.attachment .mime {
+	display: block;
+	float: left;
+	padding-right: 8px;
+	padding-bottom: 4px;
+}
+.attachment .information {
+	position: relative;
+	overflow: hidden;
+}
+.attachment .name {
+	display: block;
+	float: left;
+	font-size: 170%;
+	padding: 0px 6px 4px 0px;
+}
+.attachment .version {
+	display: block;
+}
+.attachment .meta {
+	clear: left;
+}
+.attachment .xwikibuttonlinks {
+	float: right;
+	font-size: 130%;
+	padding: 4px 10px;
+}
+body.mceContentBody {
+	background: #fff;
+}	
+.mceEditorContainer {
+	display: block;
+	height: 100% !important;	
+	position: relative;
+}
+.mceToolbar {
+	z-index: 30002;
+}
+
+/*
+*************** DEV LANDING PAGE ********************/
+#header {
+	background: url(http://dev.wavemaker.com/_media/logo_wavemaker_community.png) 18px 10px no-repeat;
+	height: 73px;
+}
+
+ul#topNav {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: 966px;
+	background: url(http://dev.wavemaker.com/_media/dev_nav_bg_bottom.png) bottom left no-repeat;
+	float: left;
+}
+#navTop {
+	background: #013158 url(http://dev.wavemaker.com/_media/dev_nav_bg_top.png) top left repeat-x;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#topNav li {
+	float: left;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#topNav li a {
+	display: block;
+	float: left;
+	width: auto;
+	height: auto;
+	background: none;
+	text-decoration: none;
+	padding: 12px 22px 12px 22px;	
+	margin: 0;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 13px;
+	background: url(http://dev.wavemaker.com/_media/dev_nav_separator.png) 0 50% no-repeat;
+}
+
+#topNav li a:hover {
+	background: url(http://dev.wavemaker.com/_media/dev_nav_separator.png) 0 50% no-repeat;
+	color: #B3D5F0;
+}
+
+#topNav li a#aEducation {
+	background: none;
+}
+
+#topNav li a#aWiki {
+	color: #B3D5F0;
+}
+
+#topNav li#lWavemaker {
+	float: right;
+}
+#topNav li#lWavemaker a {
+	background: url(http://dev.wavemaker.com/_media/dev_nav_wavemaker_logo.png)  0 38% no-repeat;
+	width: 134px;
+	height: 20px;
+}
+
+#topNav li a span {
+	display: none;
+}
+
+a#dForums {
+	background: url(http://dev.wavemaker.com/_media/dev_icon_speech.png) 100% 50% no-repeat;
+	padding-right: 40px;
+	padding: 6px 45px 6px 0;
+}                   
+a#dEducation {      
+	background: url(http://dev.wavemaker.com/_media/dev_icon_hat.png) 100% 50% no-repeat;
+	padding: 6px 45px 6px 0;
+}                   
+a#dSupport {        
+	background: url(http://dev.wavemaker.com/_media/dev_icon_life_preserver.png) 100% 50% no-repeat;
+	padding: 6px 45px 6px 0;
+}                   
+a#dWiki {           
+	background: url(http://dev.wavemaker.com/_media/dev_icon_puzzle.png) 100% 50% no-repeat;
+	padding: 6px 45px 6px 0;
+}                   
+a#dPeople {         
+	background: url(http://dev.wavemaker.com/_media/dev_icon_people.png) 100% 50% no-repeat;
+	padding-right: 40px;
+	padding: 6px 45px 6px 0;
+}                   
+a#dBlog {           
+	background: url(http://dev.wavemaker.com/_media/dev_icon_monitor.png) 100% 50% no-repeat;
+	padding: 6px 45px 6px 0;
+}
+
+body.Welcome a#aWiki,
+body.Education a#aEducation,
+body.Learning a#aEducation,
+body.Support a#aSupport {
+	color: #B3D5F0;
+}
+
+#superFooter {
+	display: none;
+}
+
+#colLeft,
+#colright {
+	width: 300px;
+	float: left;
+}
+#colLeft {
+	margin-right: 10px;
+}
+
+/*
+*************** SUPER FOOTER ********************/
+#superFooter {
+	border-top: 1px solid #d4d4d4;
+	padding: 30px 10px;
+	margin-top: 50px;
+	margin: 0 auto;
+	height: 1%;
+} 
+
+#superFooter p {
+	float: left;
+	width: 12.1%;
+	margin: 0;
+	line-height: 1.2;
+	text-align: left;
+}
+#superFooter p a {
+	color: #636363;
+	font-size: 11px;
+	text-decoration: none;
+}
+#superFooter p a.darkLink {
+	color: #252525;
+	font-weight: bold;
+}
+#superFooter p a:hover {
+	text-decoration: underline;
+}
+#superFooter .download {
+	float: left;
+	width: 155px;
+}
+a.iconDownload {
+	background: url(http://dev.wavemaker.com/_media/download_arrow.gif) 100% 0 no-repeat;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	width: auto;
+	font-size: 11px;
+	text-decoration: none;
+}
+.download img {
+	padding-right: 10px;
+	margin-top: 10px;
+	display: inline;
+}
+
+
+/*
+*************** FOOTER ********************/
+#footer{
+	clear: both;
+	border-top: 1px solid #d4d4d4;
+	padding: 10px 10px 12px 10px;
+} 
+
+body.pHome #footer {
+	margin-top: 25px;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+#footerLt {
+	float: left;
+	color: #959595;
+	font-size: 10px;
+}
+#footerLt a {
+	color: #959595;
+	font-size: 10px;
+	text-decoration: none;
+}
+#footerLt a:hover {
+	text-decoration: none;
+}
+#footerRt {
+	float: right;	
+	color: #959595;
+	font-size: 10px;
+}
+#footerRt a {
+	color: #959595;
+	font-size: 10px;
+	text-decoration: none;
+}
+#footerRt a:hover {
+	color: #959595;
+	text-decoration: none;
+}
+.clearer {
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+}
+
+#tr {
+	position: relative;
+	right: -760px;
+	top: -80px;
+	width: 200px;
+}
+#tr p {
+	color: #999;
+	font-size: 11px;
+	margin: 0 0 8px 0;
+	padding: 0;
+	text-align: right;
+}
+#tr p a {
+	color: #999;
+}
+
+/*microformats.css*/
+address.vcard{
+	display: inline;
+}
+.memberlist .vcard{
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 1em;
+	padding-bottom: 4px;
+}
+.memberlist .vcard h5{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.memberlist .vcard .photo, .memberlist .vcard .nophoto{
+	float: left;
+	margin-bottom: 0px;
+	margin-top: 6px;
+	margin-right: 8px;
+}
+dt.label label{
+	color: #999;
+	padding: 0px 2px;
+	font-variant: small-caps;
+}
+.vevent h4{
+	color: #000;
+	line-height: 1.1em;
+	font-size: 130%;
+	font-weight: bold;
+}
+.vevent .eventinfo{
+	padding-left: 24px;
+}
+.vevent abbr.dtstart, .vevent abbr.dtend{
+	border: none;
+}
+.vevent .timeplace{
+	font-style: italic;
+	border-bottom: 1px solid #DDD;
+}
+.vcard .fdaad{
+	margin-bottom: -1em;
+}
+
+/*presentation.css*/
+
+/* Presentation stylesheet */
+
+/* classes */
+.box,
+.main-content {
+	margin: 0.5em;
+}
+
+/* dom-tree */
+.dom-tree {
+	padding: 0 0 0 1.5em;
+	color: #999;
+}
+.dom-tree code {
+	font-weight: bold;
+}
+.dom-tree ul ul ul	{
+	list-style: disc;
+}
+.dom-tree ul ul ul ul	{
+	list-style: circle;
+}
+.dom-tree ul ul ul ul ul {
+	list-style: square;
+}
+.dom-tree dl,
+.dom-tree dt,
+.dom-tree dd {
+	color: black;
+	margin: 0;
+	padding: 0;
+	display: inline; /* IE 5.x doesn't like this */
+}
+.dom-tree dd {
+	font-style: italic;
+}
+
+/*
+---------------------------------------
+Global header
+---------------------------------------
+*/
+#globalmenu a {
+	text-decoration: none;
+}
+#companylogo img {
+	text-decoration: none;
+	border: none;
+}
+.breadcrumbspace{
+	font-weight: bold;
+	font-variant: small-caps;
+}
+input[type=submit], input[type=reset], input[type=button]{
+	font-family: Helvetica;
+	font-weight: bold;
+	padding: 1px 16px;
+	width: auto;
+	overflow: visible;
+}
+.button {
+	font-family: Helvetica;
+	font-weight: bold;
+	padding: 1px 16px;
+	width: auto;
+	overflow: visible;
+}
+input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover, .button:hover{
+	cursor: pointer;
+}
+.button:hover{
+	cursor: pointer;
+}
+.xwikiintra li:hover, .xwikiintracontent legend:hover, .xwikiintracontent fieldset.collapsed legend:hover{
+	background-color: #FFD;
+}
+.xwikiintracontent h4{
+	font-size: 110%;
+	text-align: left;
+	text-transform: none;
+	margin: 0px;
+}
+#xwikihistorylist li{
+	list-style-type: none;
+}
+table.xwikidatatable th{
+	text-align: center;
+	border: 1px solid;
+}
+table.xwikidatatable td{
+	padding: 2px 8px;
+	vertical-align: middle;
+}
+
+/*
+---------------------------------------
+Menu
+---------------------------------------
+*/
+.rightmenu a{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*
+---------------------------------------
+Panels
+---------------------------------------
+*/
+.xwikipaneltitle{
+	padding: 0px 4px;
+	margin: 0px;
+	font-size: 0.9em;
+	background: url("icons/black-less.png") no-repeat right center;
+	cursor: pointer;
+}
+.collapsed .xwikipaneltitle{
+	background-image: url("icons/black-more-3.png") 
+}
+.xwikipaneltitle:hover{
+	cursor: pointer;
+}
+.collapsed .xwikipaneltitle:hover{
+	background-image: url("icons/black-more-3.png") 
+}
+.xwikilogintable{
+	margin: auto;
+}
+.xwikilogintable th{
+	text-align: right;
+	background-color: transparent;
+}
+.xwikilogintable td{
+	text-align: left;
+}
+
+.xwikitabbar li.active{
+	border: 1px solid;
+	border-bottom: 3px solid;
+}
+#xwikirightstable{
+	width: 624px;
+	margin: 5px 0px;
+	border: 1px solid;
+}
+#xwikirightstable th{
+	text-align: center;
+	border: 1px solid;
+}
+#xwikirightstable td, #xwikirightstable tr{
+	border: 1px solid;
+	text-align: center;
+}
+.panel input.panelinput, .panel select{
+	width: 135px;
+}
+#editPanels .panel input.panelinput, #editPanels .panel select{
+	width: 200px;
+}
+#xwikiincludeddocuments .xwikibuttonlink a{
+	padding: 2px 8px;
+	margin-left: 8px;
+}
+
+/*
+---------------------------------------
+Articles
+---------------------------------------
+*/
+.article_title {
+	font-size: 120%;
+	border-bottom: 1px;
+}
+.article_content {
+	padding: 10px;
+}
+.article_date {
+	font-size: 120%;
+	border-bottom: 1px solid;
+}
+.article_footer {
+	border-top: 1px solid;
+	font-size: 75%; 
+	font-weight: bold; 
+}
+
+/*
+---------------------------------------
+Messages
+---------------------------------------
+*/
+.error{
+	color: #F00;
+}
+.fatalerror{
+	background-color: #F00;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 120%;
+}
+.warning{
+	color: #c82;
+}
+div.errormessage, div.warningmessage, .infomessage, div.plainmessage{
+	margin: 4px 0px 4px;
+	border: 1px solid #DDD;
+	padding: 8px 8px 8px 28px;
+	background: #F5F5F5 url(icons/msg.png) 8px 8px no-repeat;
+	text-align: left;
+}
+.infomessage{
+	background-image: url(icons/msginfo.png);
+	color: #369;
+}
+div.plainmessage{
+	background-image: none;
+	color: #369;
+}
+div.warningmessage{
+	background-image: url(icons/msgwarning.png);
+	color: #c82;
+}
+div.errormessage{
+	background-image: url(icons/msgerror.png);
+	color: #F00;
+}
+span.messagetype{
+	display: none;
+}
+fieldset.floatinginfobox{
+	width: 200px;
+	float: right;
+	border: 1px solid #333;
+	background-color: #EEE;
+	padding: 4px;
+	margin: 4px;
+}
+
+/*
+---------------------------------------
+Images
+---------------------------------------
+*/
+
+.imgfloatleft{
+	float: left;
+	margin-right: 8px;
+}
+.imgfloatright{
+	float:right;
+	margin-left: 8px;
+}
+.imgleft{
+	text-align: left;
+}
+.imgcenter{
+	text-align: center;
+}
+.imgright{
+	text-align: right;
+}
+
+/*
+---------------------------------------
+Misc
+---------------------------------------
+*/
+.specialmenu{
+	float: right;
+	border: 1px solid #CCC;
+	background-color: #E5E5E5;
+	padding: 8px;
+}
+.specialmenu ul{
+	padding: 0px;
+	margin: 0px;
+}
+.specialmenu li{
+	list-style-type: none;
+	padding: 4px 0px;
+	margin: 0px;
+	text-indent: 0px;
+}
+.specialmenu img{
+	vertical-align: middle;
+	width: 32px;
+}
+#body .specialmenu a{
+	color: #000;
+}
+#body .specialmenu a:hover{
+	color: #C82;
+}
+.currentspace a{
+	text-decoration: none !important;
+	padding: 2px;
+}
+span.floatleft{
+	display: block;
+	float: left;
+}
+a#adduser, a#modifygroup{
+	background: transparent url(icons/black-register.png) center no-repeat;
+	display: block;
+	height: 20px;
+	width: 20px;
+	overflow: hidden;
+	border: 1px solid #000;
+	margin-left: 8px;
+}
+a#modifygroup{
+	background-image: url(icons/black-edit.png);
+	border: none;
+}
+.small{
+	font-size: 75%;
+}
+.smaller{
+	font-size: 60%;
+}
+.smallest{
+	font-size: 50%;
+}
+.pagingLinks{
+	font-variant: small-caps;
+	font-size: 90%;
+	margin: 5px 30px;
+	border: 1px solid #999;
+	overflow: hidden;
+	padding: 2px 10px;
+}
+.pagingLinks .prevPage{
+	float: left;
+}
+.pagingLinks .nextPage{
+	float: right;
+}
+
+/*
+---------------------------------
+Diffs
+---------------------------------
+*/
+
+.diffbefore{
+	border-left: 8px solid #F00;
+	font-size: x-small;
+}
+.diffafter{
+	border-left: 8px solid #0F0;
+	font-size: x-small;
+}
+
+/*
+---------------------------------
+Style macro
+---------------------------------
+*/
+.stylemacro {
+	margin: 4px 0px 4px;
+	padding: 8px 8px 8px 28px;
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+	text-align: left;
+}
+
+/*colorsblack.c*/
+
+.heading-1, .heading-1-1, .heading-1-1-1, .heading-1-1-1-1 {
+	color: #00213e;
+}
+#companylogo img {}/* supprimÃ© : logo transparent*/
+
+
+#body #contentcontainer, #headerglobal, #xwikieditor{
+	border-color: #fff; /* couleur de fond de la sidebar*/
+}
+
+
+#headerglobal{
+	background-color: #fff;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	border-color: #fff;
+}
+#globallinks a,#globallinks a:link,#globallinks a:visited,#globallinks a:active {
+	color: #000;}
+#globallinks a:hover {
+	color: #0066FF;
+}
+#headeruser, #headeradmin, #headerlogin, #headerlogout, #headerlanguages, #headerregister{
+	padding-right: 20px;
+	background: transparent right center no-repeat;
+}
+
+/*
+---------------------------------------
+Space header, footer
+---------------------------------------
+*/
+#headerspace {
+	color: #000;
+}
+#footerglobal {
+	background-color: #fff;
+}
+#headerspace a, #headerspace alink, #headerspace a:visited,#headerspace a:active {
+	color:	#000;
+	text-decoration: none;
+}
+#breadcrumbs a:hover {
+	color: #D70;
+}
+
+/*
+---------------------------------------
+Content
+---------------------------------------
+*/
+
+
+.main{
+	background-color: transparent;
+}
+
+/*
+---------------------------------------
+Zone for Comments, attachments, History... 
+---------------------------------------
+*/
+ul.xwikiintra{
+	border-bottom-color: #DDD;
+	background-color: #EEE;
+}
+.xwikiintra li{
+	background-color: #BBB;
+	border-color: #CCC;
+	border-right-color: #AAA;
+}
+.xwikiintra li a, .xwikiintra li.active a{
+	color: #000;
+}
+.xwikiintra li.active{
+	background-color: #FFF !important;
+	border-bottom-color: #FFF;
+	border-top-color: #DDD;
+}
+table.xwikidatatable, table.xwikidatatable th{
+	border-color: #DDD;
+}
+table.xwikidatatable th{
+	color: #000;
+	background-color: transparent;
+	border-color: #CCC;
+	border: none;
+}
+.xwikiintracontent legend, .xwikiintracontent fieldset{
+	border-color: #ddd;
+}
+.xwikiintracontent fieldset.collapsed legend{
+	background-color: transparent;
+}
+
+/*
+---------------------------------------
+Menu
+---------------------------------------
+*/
+
+.topmenuentry{
+	 z-index: 100;
+	 background: transparent right top no-repeat;
+}
+.topmenuentry a, .topmenuentry a:link, .topmenuentry a:visited, .topmenuentry a:active, .rightmenu a, .rightmenu a:hover {
+	color: #087DC1;
+	text-decoration: underline;
+}
+.topmenuentry a strong, .rightmenu a strong{
+	color: #087DC1;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.topmenuentry a:hover strong, .rightmenu a:hover strong{
+	color: #003d5c;
+}
+.submenu{
+	background-color: #F5F5F5;
+}
+.submenuitem a, .submenuitem a:link, .submenuitem a:visited, .submenuitem a:active	{
+	color:#333; 
+
+}
+.submenuitem a:hover {
+	background-image: none;
+	background-color: #BFE4FF;
+	background-repeat: repeat-x;
+}
+
+/*
+---------------------------------------------
+"Message Boxes"
+---------------------------------------------
+*/
+fieldset.xwikimessage{
+	border-color: #BBB;
+	background-color: #F5F5F5;
+}
+fieldset.xwikimessage legend{
+	background-color: #BBB;
+	color: #FFF;
+}
+input.button, button.button{
+	background-color: #EEE;
+}
+input.button:hover, button.button:hover{
+	color: #369;
+}
+#body .buttonwrapper *{
+	background-color: transparent;
+	background: transparent url("icons/black-button24r.png") right center no-repeat;
+	color: #FFF;
+	padding: 4px 8px;
+	border: none;
+}
+#body .buttonwrapper *:hover{
+	background-image: url("icons/black-button24r-hover.png")
+}
+.topbuttons, .bottombuttons{
+	float: right;
+}
+
+/*
+---------------------------------------
+Editors
+---------------------------------------
+*/
+.xwikitabbar li{
+	background-color: #CDF;
+	border-color: #ACF;
+	border-bottom-color: #CCC;
+	border-left-color: #DDF;
+	border-top-color: #DDF;
+}
+.xwikitabbar li a{
+	color: #FFF !important;
+}
+.xwikitabbar li.active a{
+	color: #FFF !important;
+}
+.xwikitabbar li.active{
+	border-color: #DDD;
+	border-bottom-color: #FFF;
+}
+#xwikicontentedit{
+	border-color: #ddd;
+}
+
+/*
+---------------------------------------
+Panels
+---------------------------------------
+*/
+#leftPanels, #rightPanels, #editPanels{
+	border-top: 20px solid #fff;	
+	background-color: #fff;
+	color: #000;
+}
+#globalsearch input.button{
+background-color: #384554;}
+
+.fakepanel{
+	background-color: #EEE;
+	border-color: #E5E5E5;
+}
+.panel{
+	border-color: #DDD;
+	background-color: #fff;
+	background-color: transparent;
+}
+.xwikipanelcontents{
+	background-color: #fff; /* sidebar background color */
+}
+.expanded .xwikipaneltitle{
+	background-color: #fff;
+	color: #000;
+}
+.collapsed .xwikipaneltitle{
+	background-color: #fff;
+	color: #000;
+}
+.expanded .xwikipaneltitle:hover{
+	color: #006ACC;
+}
+.collapsed .xwikipaneltitle:hover{
+	color: #C0D4E7;
+}
+#rightPanels a {
+	color: #087DC1;
+	font-weight: normal;
+}
+
+/*
+----------------------------------
+Rico Acordeon -- Sintax Help Panel
+----------------------------------
+*/
+.accordionTabContentBox table th{
+	background-color: #FFF;
+	border-bottom-color: #DDD;
+}
+.accordionTabTitleBar{
+	border-color: #FFF;
+	border-bottom-color: #DDD;
+	border-right-color: #DDD;
+	background-color: #EEE;
+}
+
+/*
+----------------------------------
+Misc
+----------------------------------
+*/
+
+td.label{
+	color: #777;
+}
+#xwikiclassproperties, #xwikiobjects{
+	border-color: #DDD !important;
+}
+#xwikihelpsyntax{
+	border-top-color: #DDD;
+}
+.editactions a{
+	background-color: #EEE;
+	color: #000;
+	border-color: #DCDCDC;
+}
+.editactions a:hover{
+	background-color: #FFD;
+}
+
+/*
+---------------------------------------------
+"Message Boxes"
+---------------------------------------------
+*/
+fieldset.xwikimessage{
+	border-color:#658BB2;
+}
+fieldset.xwikimessage legend{
+	background-color: #658BB2;
+	color: #FFF;
+}
+tr.row.odd, .odd{
+	background-color: #EEE;
+}
+tr.row.even, .even{
+	background-color: #FFF;
+}
+tr th{
+	background-color: #EEE;
+}
+tr.row.odd, .odd {
+	background-color: #FFF;
+}
+tr.row.even, .even {
+	background-color: #E4F6FF;
+}
+th{
+	background-color: #CDF;
+}
+.xwikibuttonlink a {
+	background-color: #369;
+	color: #fff;
+}
+.xwikibuttonlink a:hover {
+	background-color: #cdf;
+	color: #369;
+}
+.xwikitabbar li {
+	text-align: center;
+	display: block;
+	float: left;
+	width: 15%;
+	background: #9ABFE5;
+	border: none;
+}
+.xwikitabbar li.active, .xwikitabbar li:hover {
+	background: #357FCB;
+	border: none;
+}
+#xwikirightstable{
+	border-color: #DDD;
+}
+#xwikirightstable th{
+	border-top-color: #DDF;
+	border-right-color: #ACF;
+	border-bottom-color: #CCC;
+	border-left-color: #DDF;
+}
+#xwikirightstable td, #xwikirightstable tr{
+	border-color: #DDD;
+}
+.article_footer {
+	color: #777;
+	border-color: #777;
+}
+.xwikiuserblog .rssfeed {
+	border-top-color: #DDD;
+	border-left-color: #DDD;
+	border-bottom-color: #EEE;
+	border-right-color: #EEE;
+}
+.rsschanneltitle{
+	background-color: transparent;
+}
+.panel a{
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+.panel a:hover {
+	color: #003d5c;
+	text-decoration: none;
+	font-weight: bold;
+}
+.panel .accordionTabTitleBar{
+	background-color: #fff !important;
+	border: none !important;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	border-top: 1px solid #384554 !important;
+	border-bottom: 1px solid #384554 !important;
+}
+.panel .accordionTabTitleBar h6{
+	margin: 0px;
+	color: #FFF !important;
+	font-style: normal !important;
+	font-weight: 900 !important;
+	font-size: 100% !important;
+	padding-left: 10px;
+	line-height: 1.3em;
+	border-bottom: 2px solid #384554 !important;
+	border-top: 1px solid #384554;
+}
+.panel .accordionTabTitleBar h6:hover{
+	background: transparent url("icons/black-more-3.png") right center no-repeat !important;
+}
+.panel .accordionTabContentBox{
+	background-color: #C0D4E7 !important;
+	border: 1px solid #C0D4E7 !important;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto !important;
+}
+.panel .accordionTabContentBox ul{
+	margin: 4px;
+	padding-left: 2em;
+}
+.panel .accordionTabContentBox ul{
+	list-style-type: disc;
+}
+.accordionTabContentBox{
+	color: #384554 !important;
+	border-width: 1px !important;
+}
+.panel .accordionTabContentBox a{
+	color: #2E5A87 !important;
+}
+.panel .accordionTabContentBox a:hover{
+	color: #D70 !important;
+}
+#body .panel .tbexpanded{
+	background-color: #FFF !important;
+	border-top: 1px solid #D6D6D6 !important;
+	border-bottom: 1px solid #384554 !important;
+}
+#body .panel .tbexpanded h6{
+	color: #384554 !important;
+	border-bottom: 2px solid #DFE5E4 !important;
+	border-top: 1px solid #DFE5E4;
+}
+.panel .tbexpanded h6:hover{
+	background-image: none !important;
+}
+.placeholder{
+	background-color: #555;
+	border: 1px dotted #CCC;
+}
+#dragbox{
+	background-color: #c82 !important;
+	border: 1px dotted #fff !important;
+}
+.dropTarget .accordionTabContentBox{
+	background-color: #777 !important;
+}
+input.button{
+	background-color: #3381CC;
+	border: solid 0px #3381CC;
+	color: #fff;
+	font-weight: bold;
+	padding: 2px;
+}
+input.button:hover{
+	background-color: #98BFE6;
+}
+input[type=submit]{
+	background-color: #3381CC;
+	border: solid 0px #3381CC;
+	color: #fff;
+	font-weight: bold;
+	padding: 2px;
+}
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #999;
+	border: 1px solid #999;
+	font-size: 11px;
+	background: #f6f6f6;
+	padding: 5px;
+}
+textarea[disabled] {
+	background-image: url("black-textareabg-disabled.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-color: #e4e4e4;
+	border: 1px solid #000;
+	padding: 5px;
+}
+input[type=text], input[type=password], input[type=checkbox], input[type=file], select{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #242424;
+	border: 1px solid #999;
+	font-size: 11px;
+	background: #f6f6f6;
+	padding: 5px;
+}
+input[disabled], select[disabled]	{
+	background: #e4e4e4 url("black-textareabg-disabled.png") 0px 0px no-repeat;
+	border: 1px solid #000;
+	padding: 5px;
+}
+input[type="radio"][disabled] {
+	background-image: none;
+}
+
+form label {
+	padding: 0px;
+}
+form input {
+	/* display: block;*/
+	margin-top: 3px;
+}
+input[type=checkbox], input[type=radio]{
+	/*float: left;*/
+	margin-right: 0.75em;
+}
+.buttonwrapper{
+	background: transparent url("icons/black-button24l.png") left center no-repeat;
+	min-height: 24px !important;
+	float: left;
+	display: block;
+	margin: 10px 0px 10px 10px;
+}
+.buttonwrapper:hover{
+	background-image: url("icons/black-button24l-hover.png");
+}
+.buttonwrapper *{
+	min-height: 24px !important;
+	margin: 0px !important;
+	display: block;
+	line-height: 1.6em !important;
+}
+.important{
+	color: #C82 !important;
+}
+#xwikidataindex{
+	display: none;
+}
+#commentscontent{
+}
+
+/*
+.commentsno{
+	background: transparent url(icons/black-comment2.png) center center no-repeat;
+}
+*/
+
+#body #attachmentscontent {
+	
+}
+#xwikidata form {
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+#comments, #attachments {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#xwikidata form {
+	width: 90%;
+	margin: auto;
+}
+* html #attachments form {
+	width: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+.xwikiintratitle {
+	display: block !important;
+}
+a.deletelink {
+	padding-left: 20px;
+	background: transparent url(icons/black-delete.png) left center no-repeat;
+	text-decoration: none;
+}
+
+a.deletelink:hover {
+	color: #900;
+	text-decoration: underline;
+}
+
+
+/*-----------------------------*/
+
+.about, #footerglobal {
+	font-variant: small-caps;
+	font-size: 90%;
+}
+.about {
+	color: #888;
+	clear:both;
+}
+.about a {
+	color: #333;
+	text-decoration: none;
+}
+#footerglobal a {
+	color: #CDE;
+	text-decoration: none;
+}
+#footerglobal a:hover {
+	color: #D70;
+}
+
+
+/*@import "ie.css";	 masque temporairement : modif spÃ©cifique IE Ã  rÃ©intÃ©ger*/
+/*fullscreenEdit.css*/
+#show-dialog-btn {
+	background: url(images/fullscreen/fullscreen22.gif) top right no-repeat;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	float:right;
+	top: 3px;
+	right: 20px;
+	position: absolute;
+	z-index: 12312;
+}
+#xwikieditcontent {
+	position: relative;
+}
+html > body #show-dialog-btn {
+	right: 1px;
+	top: 1px;
+}
+.leftmenu2 {
+	min-height: 15px;
+}
+#fullscreen-dlg {
+	display:none;
+	position: absolute;
+	top:0px;
+	left:0px;
+	bottom: 0px;
+	right: 0px;
+	z-index:30000;
+	background-color: #ffd;
+	padding: 0px;
+	height: 100%;
+}
+#fullscreen-dlg-head {
+	background: url(images/fullscreen/hd-sprite.gif) repeat-x 0px -82px;
+	background-color:navy;
+	color:#FFF;
+	font: bold 12px tahoma, verdana, helvetica, "sans serif";
+	padding: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+}
+#fullscreen-dlg-body {
+	background-color: #9cbbe9;
+	color: #fff;
+	width: 100%;
+	border:1px solid #6593cf;
+	border-top:0 none;
+	/*padding:10px;*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	overflow:hidden;
+}
+* html #fullscreen-dlg-body {
+	height: 100%;
+	top: 0px; left: 0px; right: 0px; bottom: 0px;
+	position: relative;
+}
+#fullscreen-dlg-body-tab-wiki, #fullscreen-dlg-body-tab-wysiwyg {
+	background-color: #fff;
+	border:1px solid #6593cf;
+	position: absolute;
+	margin: 10px auto 0px;
+	left: 4px;
+	right: 4px;
+	bottom: 30px;
+	top: 20px;
+	text-align:center;
+}
+* html #fullscreen-dlg-body-tab-wiki {
+	width: 99%;
+	height: 90%;
+	top: 0px; left: 0.5%; right: 0px; bottom: 0px;
+	position: relative;
+}
+* html #fullscreen-dlg-body-tab-wysiwyg {
+	width: 99%;
+	height: 88%;
+	top: 0px; left: 0.5%; right: 0px; bottom: 0px;
+	position: relative;
+}
+#fullscreen-dlg-body-tab-wiki textarea {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 20px;
+	bottom: 0px;
+	width: 99.5% !important;
+	height: 95% !important;
+}
+#fullscreen-dlg-body-tab-wysiwyg textarea {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 20px;
+	bottom: 0px;
+	width: 99.5% !important;
+	height: 99% !important;
+}
+* html #fullscreen-dlg-body-tab-wysiwyg textarea {
+	width: 100% !important;
+	height: 100% !important;
+	position: static;
+}
+* html #fullscreen-dlg-body-tab-wiki textarea {
+	width: 100% !important;
+	height: 96.5% !important;
+	position: static;
+}
+#fullscreen-dlg-body-tab-wysiwyg td, #fullscreen-dlg-body-tab-wiki td {
+	text-align: center;;
+}
+* html #parentswapDiv iframe {
+	position: static;
+	height: 99.6% !important;
+	width: 100% !important;
+}
+#parentswapDiv {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+#swapDiv {
+	width: 100%;
+	height: 100%;
+}
+.backBtn {	
+	z-index: 30001;
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	background: transparent url(images/fullscreen/button.gif) no-repeat;
+	width:75px;
+	height: 20px;
+	cursor: pointer;
+}
+#closeBtn {
+	position: absolute;
+	top: 0px; right: 0px;
+	height:20px;
+	width:20px;
+	margin:0;
+	padding:0;
+	line-height:1px;
+	font-size:1px;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	background: url(images/fullscreen/close.gif) center no-repeat;
+}
+.btnText {
+	text-align: center;
+	font: 12px "sans serif", tahoma, verdana, helvetica;
+	color: #fff;
+	padding-top: 1px;
+}
+.titleText {
+	float:left;
+	height:15px;
+	width:15px;
+	margin:0;
+	margin-left:2px;
+	padding:0;
+	cursor:default;
+}
+
+/* Styles for custom hand written <table> tables */
+/*css/table/table.css*/
+/* CSS for HTML <TABLE> elements. This allows to hand build customized tables which can be
+	 sorted, filtered and have a look similar to the tables generated by the {table} macro */
+.grid {
+ margin: 2px 0px 5px;
+ border-collapse: collapse;
+ width: 90%;
+}
+.grid th {
+	border-right: #ccc 1px solid;
+	padding-right: 4px;
+	border-top: #ccc 1px solid;
+	padding-left: 4px;
+	background: #f0f0f0;
+	padding-bottom: 2px;
+	border-left: #ccc 1px solid;
+	padding-top: 2px;
+	border-bottom: #ccc 1px solid;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.grid td {
+	border-right: #ccc 1px solid;
+	padding-right: 4px;
+	border-top: #ccc 1px solid;
+	padding-left: 4px;
+	padding-bottom: 3px;
+	border-left: #ccc 1px solid;
+	padding-top: 3px;
+	border-bottom: #ccc 1px solid
+}
+.gridHover {
+	background-color: #f9f9f9
+}
+
+/* Button to filter columns */
+.btnflt {
+	vertical-align: middle;
+}
+
+/* Filter input box */
+input.flt, select.flt {
+	background-color: #f5f5f5;
+	background-image: url(icons/table/filter.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	border:1px solid #ccc;
+	margin: 0px -3px;
+	width:100%;
+	vertical-align: middle;
+}
+
+/* Filter input box when the filter is next to the filter button */
+input.flt_s, select.flt_s {
+	background-color: #f5f5f5;
+	background-image: url(icons/table/filter.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	border:1px solid #ccc;
+	vertical-align: middle;
+}
+
+/*usersandgroups.css*/
+/* USERS SCROLLING SYSTEM */
+div.scrollbar {
+	overflow: auto !important;
+	height: 250px;
+	margin: 0px;
+	padding: 0px;
+	width: 25px;
+	left: -10px;
+	position: relative;
+}
+div.inscrollbar {
+	width: 1px;
+	margin: 0px;
+	padding: 0px;
+	height: 3000px;
+}
+.display {
+	border-collapse: collapse;
+	border: 1px solid #d4dee8;
+	width: 100%;
+}
+.display td {
+	border: 1px solid #d4dee8;
+}
+#showLimits {
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.icon-manage {
+	cursor: pointer;
+	padding-right: 10px;
+}
+.icon-manageg {
+	padding-right: 10px;
+}
+#ajax-loader {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	z-index: 10000;
+	display: none;
+	width: 220px;
+	background-color: #fff;
+	border: 1px solid #999;
+	font-size: 11px;
+	padding: 8px;
+	text-indent: 5px;
+}
+.theader {
+	background-color: #1f66ab;
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+}
+#table-filters {
+	background-color: #d4dee8;
+}
+.filter {
+	width: 70%;
+}
+.theader td {
+	padding-left: 10px;
+}
+
+#userstable, #groupstable, #usersandgroupstable, #alldocstable {
+	width: 100%;
+	position: relative;
+	left: 4px;
+	padding: 0px;
+	margin: 0px;
+}
+#memberstable {
+	width: 500px;
+	margin-bottom: 5px;
+}
+#specialusersandgroups {
+	border-collapse: collapse;
+	border: 1px solid #d4dee8;
+	width: 99.5%;
+}
+#specialusersandgroups td {
+	border: 1px solid #d4dee8;
+}
+.manage {
+	text-align: center;
+	width: 15%;
+}
+.hmanage {
+	width: 15%;
+	padding-left: 10px;
+}
+.rights {
+	text-align: center;
+	padding-left: 0px !important;
+	padding-top: 4px;
+	width: 9%;
+}
+#usersandgroupstable.spacerights .rights {
+	width: 12% !important;
+}
+#usersandgroupstable.rights .rights {
+	width: 15% !important;
+}
+.spaceName {
+	margin-left: 13px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#tdAddNewUserOrGroup {
+	padding-top: 11px;
+}
+#tdAddNewUserOrGroup a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+	background-image: url(/wiki/skins/albatross/icons/rights%2Dmanager/but1.png);
+	background-repeat: no-repeat !important;
+	display: block;
+	text-align: center;
+	padding-top: 3px;
+	width: 130px;
+	height: 24px;
+}
+#errMsg {
+	color: #DD7700;
+	font-size: 12px;
+	font-weight: bold;
+}
+#XWikiGuestSpecial {
+	background-color: #fff;
+	color: #000;
+}
+.suorg {
+	padding-left: 10px;
+	padding-top: 4px;
+}
+.username {
+	padding-left: 10px;
+}
+#addNewMember {
+	margin-top: 5px;
+}
+.addlabel {
+	font-weight: bold;
+}
+
+/*suggest/ajaxSuggest.css*/
+div.ajaxsuggest {
+	position: absolute;
+	background-image: url(suggest_img/as_pointer.gif);
+	background-position: top;
+	background-repeat: no-repeat;
+	padding: 10px 0 0 0;
+z-index: 100013;
+}
+div.ajaxsuggest div.as_header,
+div.ajaxsuggest div.as_footer {
+	position: relative;
+	height: 6px;
+	padding: 0 6px;
+	background-image: url(suggest_img/ul_corner_tr.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+div.ajaxsuggest div.as_footer {
+	background-image: url(suggest_img/ul_corner_br.gif);
+}
+div.ajaxsuggest div.as_header div.as_corner,
+div.ajaxsuggest div.as_footer div.as_corner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 6px;
+	width: 6px;
+	background-image: url(suggest_img/ul_corner_tl.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+div.ajaxsuggest div.as_footer div.as_corner {
+	background-image: url(suggest_img/ul_corner_bl.gif);
+}
+div.ajaxsuggest div.as_header div.as_bar,
+div.ajaxsuggest div.as_footer div.as_bar {
+	height: 6px;
+	overflow: hidden;
+	background-color: #333;
+}
+
+div.ajaxsuggest ul {
+	list-style: none;
+	margin: 0 0 -4px 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+div.ajaxsuggest ul li {
+	color: #ccc;
+	padding: 0;
+	margin: 0 4px 4px;
+	text-align: left;
+}
+div.ajaxsuggest ul li a {
+	color: #ccc;
+	display: block;
+	text-decoration: none;
+	background-color: transparent;
+	position: relative;
+	padding: 0;
+	width: 100%;
+}
+div.ajaxsuggest ul li a:hover {
+	background-color: #444;
+}
+div.ajaxsuggest ul li.as_highlight a:hover {
+	background-color: #1B5CCD;
+}
+div.ajaxsuggest ul li a span {
+	display: block;
+	padding: 3px 6px;
+	font-weight: bold;
+}
+div.ajaxsuggest ul li a span small {
+	font-weight: normal;
+	color: #fff;
+}
+div.ajaxsuggest ul li.as_highlight a span small {
+	color: #ccc;
+}
+div.ajaxsuggest ul li.as_highlight a {
+	color: #fff;
+	background-color: #1B5CCD;
+	background-image: url(suggest_img/hl_corner_br.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+div.ajaxsuggest ul li.as_highlight a span {
+	background-image: url(suggest_img/hl_corner_bl.gif);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+div.ajaxsuggest ul li a .tl,
+div.ajaxsuggest ul li a .tr {
+	background-repeat: no-repeat;
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	top: 0;
+	padding: 0;
+	margin: 0;
+}
+div.ajaxsuggest ul li a .tr {
+	right: 0;
+}
+div.ajaxsuggest ul li.as_highlight a .tl {
+	left: 0;
+	background-image: url(suggest_img/hl_corner_tl.gif);
+	background-position: bottom left;
+}
+div.ajaxsuggest ul li.as_highlight a .tr {
+	right: 0;
+	background-image: url(suggest_img/hl_corner_tr.gif);
+	background-position: bottom right;
+}
+div.ajaxsuggest ul em {
+	font-style: normal;
+	color: #6EADE7;
+}
+div.ajaxsuggest ul li.as_warning {
+	font-weight: bold;
+	text-align: center;
+}
+.expanded .xwikipaneltitle {
+	background-color: #fff;
+	color: #384554;
+}
+.xwikipaneltitle:hover {
+	cursor: pointer;
+}
+.collapsed .wikipaneltitle {
+	border-top: 1px solid #fff;
+}
+.xwikipaneltitle {
+	padding: 10px 0px;
+	margin: 0px;
+	font-size: 1em;
+	background: url("icons/black-less.png") no-repeat right center;
+	border: 4px solid #384554;
+	border-width: 0px;
+	cursor: pointer;
+}
+.panel .accordionTabTitleBar h6 {
+	border-top: 1px solid #999;
+}
+#xwikinav {
+	border-bottom: 1px solid #999;
+}
+#contentcolumn {
+	width: 100% !important;
+	overflow: hidden;
+}
+li.inline {
+	display: inline;
+	padding-left: 3px;
+	padding-right: 7px;
+}
+li.tags {
+	color: rgb(102, 102, 255);
+	cursor: pointer;
+}
+li.selected {
+	background-color: #008;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+#xwikieditcontent .accordionTabTitleBar h6 {
+	width: 100%;
+}
+div.panellayoutcontainer-1col .panellayoutcol {
+	width: 100%;
+}
+div.panellayoutcontainer-2col .panellayoutcol {
+	width: 50%;
+}
+div.panellayoutcontainer-3col .panellayoutcol {
+	width: 33%;
+}
+div.panellayoutcontainer-4col .panellayoutcol {
+	width: 25%;
+}
+div.panellayoutcontainer-5col .panellayoutcol {
+	width: 20%;
+}
+div.panellayoutcontainer-1col,div.panellayoutcontainer-2col,div.panellayoutcontainer-3col,div.panellayoutcontainer-4col,div.panellayoutcontainer-5col
+	{
+	overflow: auto;
+	clear: left;
+	height: 1%;
+}
+.panellayoutcol {
+	overflow: auto;
+	float: left;
+	height: 1%;
+}
+.panellayoutcol .panel {
+	width: 90%;
+	margin: 0 0 20px 5%;
+	border: 1px solid #ddd;
+}
+#xwikicontent .panel ul {
+	margin: 0 5px;
+	padding: 0;
+	list-style-position: inside;
+}
+#xwikicontent .panellayoutcol .panel .xwikipanelcontents {
+	background-color: transparent;
+}
+#xwikicontent .panellayoutcol .panel .xwikipanelcontents a {
+	color: #000;
+}
+#xwikicontent .panellayoutcol .panel .xwikipanelcontents a:hover {
+	color: #06F;
+}
+#xwikicontent .panellayoutcol .expanded .xwikipaneltitle {
+	background-color: #789;
+	color: #fff;
+	border-bottom: 1px solid #ddd;
+	background-image:
+	url("icons/black-less-cont.png");
+}
+#xwikicontent .panellayoutcol .collapsed .xwikipaneltitle {
+	background-color: #CDE;
+	color: #fff;
+	background-image:
+	url("icons/black-more-cont.png");
+}
+#xwikicontent .panellayoutcol .expanded h5.xwikipaneltitle:hover,#xwikicontent .panellayoutcol .collapsed h5.xwikipaneltitle:hover {
+	color: #fff;
+}
+.nobr {
+	color: #000;
+}
