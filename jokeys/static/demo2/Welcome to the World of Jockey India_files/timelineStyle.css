@@ -1,0 +1,151 @@
+#historyHolder {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size: .85em;
+	color:#444;
+	height:505px;
+}
+.tlleft {
+	float: left;	
+}
+.tlright{
+	float:right;
+}
+.tlclear{
+	clear:both;
+}
+.dateTitle {
+	font-size: 2em !important;
+	color:#00598C !important;
+}
+#flowpanes {
+	border: 1px solid #ccc;
+}
+#flowtabs {
+	width:730px;
+	margin: 0;
+	padding:0;	
+	/* IE6 specific branch (prefixed with "_") */
+	_margin-bottom:-2px;
+}
+#flowtabs li { 
+	float:left; 
+	text-indent:0; 
+	list-style-type:none;
+	text-align:center;
+}
+#flowtabs li a {
+	display:block;
+	width: 54px;
+	height:55px;
+	color: #989898;
+	text-decoration:none;
+}
+#flowtabs li a:hover {
+	color: #444;
+	text-decoration:none;
+}
+#flowtabs li a span {
+	position:relative;
+	margin: 0 5px;
+	position:relative;
+	top: 20px;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+#flowpanes {
+	width:728px;
+	height:398px;	
+}
+#flowtabs li.french a span { top:5px; }
+
+a.nextBTN, a.prevBTN {
+	border: none;
+	height:21px;
+	width:14px;
+	position:relative;
+	top: 23px;
+}
+a.nextBTN {
+	background: url(../images/r_arrow.gif) no-repeat left top;
+}
+a.nextBTN:hover {
+	background: url(../images/r_arrow.gif) no-repeat left -21px;
+}
+a.prevBTN {
+	background: url(../images/l_arrow.gif) no-repeat left top;
+}
+a.prevBTN:hover {
+	background: url(../images/l_arrow.gif) no-repeat left -21px;
+}
+#flowtabs li a.current {
+	background: #00598C;
+	color: #fff;
+}
+#flowpanes div.mainText {
+	width: 350px;
+	height: 370px;
+	float: right;
+	padding: 30px 0 0 0;
+	overflow: auto;
+}
+a.disabled {
+	visibility:hidden !important;		
+} 
+#historyHeader {
+	width: 730px;
+	height: 50px;
+	border-bottom: 1px solid #C2D4DC;
+}
+#historyHeader h2 {
+	margin:0;
+	color:#444;
+	position:relative;
+	top: 15px;
+	left: 15px;
+}
+#lineHolder {
+	background: url(../images/lineBG.gif) no-repeat top left;
+}
+
+/* override the root element to enable scrolling */
+#flowpanes {
+	position:relative;
+	overflow:hidden;
+	clear:both;
+	background: url(http://jockey.com.pk/images/stripeBG.jpg) repeat-x top left;
+}
+/* override single pane */
+#flowpanes div {
+	float:left;
+	display:block;
+	width:730px;
+	height: 400px;
+}
+#flowpanes div p {
+	margin: 15px 25px;
+	 color: #444444;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 0.85em;
+}
+
+.mainContent
+{
+ font: 14px arial,sans-serif !important;
+}
+#flowpanes img {
+	margin: 30px 0 0 10px;
+}
+/* our additional wrapper element for the items */
+#flowpanes .items {
+	width:20000em;
+	position:absolute;
+	clear:both;
+	margin:0;
+	padding:0;
+}
+#flowpanes .less, #flowpanes .less a {
+	color:#999 !important;
+	font-size:11px;
+}

@@ -1,0 +1,210 @@
+.head_nav
+{
+	list-style-type:none;
+	width:623px;
+	float:left;
+	padding:8px 0 0px 58px;
+	/*margin:0 0 12px 0;*/
+	position:relative;
+	text-transform:uppercase;
+	top:83px;
+	z-index: 999;
+}
+
+.head_nav li
+{
+	float:left;
+	z-index:0;
+	list-style:none;
+	padding:1px 0 0 1px;
+	border-right:#c5c9cd solid 1px;
+	position:relative;
+}
+.head_nav li.last {
+	border-right:none;
+}
+
+.head_nav li:hover
+{
+	background:#ffffff;
+	border-left:#c5c9cd solid 1px;
+	border-top:#c5c9cd solid 1px;
+	border-right:#c5c9cd solid 1px;
+	background:url('../images/hoverspacer.gif') repeat top left;
+}
+.head_nav li#man:hover
+{
+	border-top:#c5c9cd solid 1px;
+	border-right:#c5c9cd solid 1px;
+	border-left:#c5c9cd solid 1px;
+	border-bottom:#c5c9cd solid 1px;
+	padding:0 0 24px 1px;
+	position:relative;
+	margin:0 0 -20px -1px;
+	z-index:1;
+}
+.head_nav li#last:hover
+{
+	border-top:#c5c9cd solid 1px;
+	border-right:#c5c9cd solid 1px;
+	border-left:0px;
+	border-bottom:#c5c9cd solid 1px;
+	border-left:#c5c9cd solid 1px;
+	padding:0 0 24px 1px;
+	position:relative;
+	margin:0 0 -20px -1px;
+	z-index:1;
+}
+.head_nav li#women:hover, 
+.head_nav li#kids:hover, 
+.head_nav li#sports:hover
+{
+	border-top:#e1e1e1 solid 1px;
+	border-right:#c5c9cd solid 1px;
+	border-left:#c5c9cd solid 1px;
+	border-bottom:#c5c9cd solid 1px;
+	padding:0 0 24px 1px;
+	position:relative;
+	margin:0 0 -20px -1px;
+	z-index:1;
+}
+.head_nav li div { 
+	display:block; 
+	position:relative; 
+	z-index:999;
+	/*background:#fff;*/
+	padding:5px 22px 0px 22px;
+}
+.head_nav li a
+{
+	font-size:16px;
+	text-decoration:none;
+	color:#231f20;
+	text-transform:uppercase;
+	zoom: 1;
+	position:relative;
+	z-index:999;
+	cursor:default;
+}
+.head_nav ul
+{
+	position:absolute;
+	background:#fff;
+	background:url(../images/subnav.png) repeat 0 0 scroll!important;
+	top:44px;
+	left:-1px;
+	display:none;
+	width:420px;
+	border:1px solid #c5c9cd;
+	z-index:999999;
+}
+/*
+.head_nav ul.last_sub
+{
+	position:absolute;
+	z-index:1;
+	background:url(/images/subnav.png) repeat 0 0 scroll!important;
+	top:44px;
+	left:-248px;
+	display:none;
+	width:380px;
+	border:1px solid #c5c9cd;
+	z-index:0;
+}*/
+.head_nav li.last ul.sub_links
+{
+	position:absolute;
+	background:url(../images/subnav.png) repeat 0 0 scroll!important;
+	top:44px;
+	left:-78px;
+	width:210px;
+	border:1px solid #c5c9cd;
+	border-top:none;
+	z-index:999999;
+}
+.head_nav  ul.sub_links li{
+	padding:0;
+	z-index:9999999999;
+	zoom:1;
+}
+.head_nav  ul.sub_links li.end{
+	border-bottom:1px solid #c5c9cd;
+	border-right:0;
+	padding:0;
+}
+.head_nav .sub_links li, .head_nav .sub_links li a:hover
+{
+	margin:0;
+	border:0;
+	background:none;
+	z-index:9999999999;
+	color:#000;
+}
+.head_nav .sub_links li:hover > ul.cat
+{
+	display:block;
+	width:210px;
+	position:absolute;
+	top:34px;
+}
+
+.head_nav li:hover > ul
+{
+	display:block;
+}
+
+.head_nav ul.sub_links
+{
+	border-top:none;
+	margin:2px 0 0 0;
+}
+
+.head_nav ul.sub_links li{
+	float:left;
+	width:210px;
+}
+.head_nav li ul.sub_links li a{
+	font-size:14px;
+	color:#77787b;
+	text-transform:uppercase;
+	font-family:"Helvetica CE 55 Roman", "Helvetica Condensed", "Helvetica Neue LT";
+	border-right:0px;
+	/*border-bottom:1px solid #c5c9cd;*/
+	position:relative;
+	left:0px;
+	padding:10px 0;
+	display:block;
+	text-indent:24px;
+	z-index:999999;
+}
+.head_nav li ul.sub_links li a:hover{
+	/*border-bottom:1px solid #c5c9cd;*/
+}
+.borderright
+{
+	border-right:1px solid #c5c9cd !important;
+}
+
+.head_nav  ul.sub_links li ul.cat{
+	padding:15px 0 15px 0;
+}
+
+.head_nav  ul.sub_links li ul.cat li{
+	padding:0px;
+	border:0px;
+}
+
+.head_nav  ul.sub_links li ul.cat li a{
+	border:none!important;
+	font-size:11px;
+	font-family:"Helvetica CE 55 Roman", "Helvetica Condensed", "Helvetica Neue LT";
+	text-indent:25px;
+	padding:3px 0;
+	cursor:auto;
+}
+.head_nav  ul.sub_links li ul.cat li a:hover{
+	color:#000;
+}
+.head_nav  ul.sub_links li ul#colr li a{
+	color:#231f20;
+}
