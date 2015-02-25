@@ -1,0 +1,5 @@
+.course-content tr th{border: 2px solid black;width:33%;text-align:center;color:white;background-color:black;padding:5px;font-size:18px;}
+.course-content tr td{border: 2px solid black;width:33%;text-align:center;color:black;padding:5px;font-size:15px;}
+.reg-form{width:100%;text-align:center;padding:5px;font-size:18px;}
+.reg-form tr {text-align:center;font-size:18px;}
+.reg-form tr td{padding-top:10px;text-align:center;font-size:18px;}

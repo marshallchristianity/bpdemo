@@ -1,0 +1,427 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 325px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
+	.fullscreen-container{display:none;}
+	.fullscreenslider{display:none;}
+.fullscreenslider img{display:none;}
+.fullscreenslider ul li img{display:none;}
+.fullscreenslider ul{display:none;}
+.recent-posts {
+    height: 188px !important;
+}
+.inpagebase{display:none;}
+.c-tab{display:none;}
+.formob{display:block  !important;}
+.formob img{display:block  !important;}
+.innerbanner-txt, .inner-b-sm-txt{display:none; visibility:hidden;}
+/*.bestview{ font-size:0px; display:none !important;}
+*/
+}
+ /*pankaj-sir-iphone-media-query
+*/
+
+@media only screen
+and (min-device-width : 0px)
+and (max-device-width : 730px) {
+	
+.recent-posts {
+    height: 231px !important;
+}	
+.inpagebase{display:none;}
+.formob{display:block  !important;}
+	.fullscreen-container{display:none;}
+	.fullscreenslider{display:none;}
+.fullscreenslider img{display:none;}
+.fullscreenslider ul li img{display:none;}
+.fullscreenslider ul{display:none;}
+.formob{display:block  !important;}
+.formob img{display:block  !important;}
+.innerbanner-txt, .inner-b-sm-txt{display:none; visibility:hidden;}
+/*.bestview{ font-size:0px; display:none !important;}
+*/
+.pageSeparator, .pageSeparator svg{ display:none!important; visibility:hidden !important;}
+.full-width img, .webdesignmenu img{ display:none;}
+.bb3{display:block !important; visibility:visible !important;}
+.ml45{margin-left:0px !important;}
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 900px) {
+.icon img {
+    width:45px!important ;
+    height:auto;
+}
+.icon .circle {
+   font-size: 62px!important;
+    height: 56px!important;
+    line-height: 55px!important;
+    width: 56px!important;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 758px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+.topone{width:50%;}
+.demo_highlight_yellow, .fullscreenbanner h2 {font-size: 70%;}
+.demo_white_text_container2{width:340px; margin-right:15px;}
+
+.pageSeparator, .pageSeparator svg{ display:block !important;}
+.logo {
+    width: 65% !important;}
+.inner-banner{height:165px; background-size:cover;}
+	.fullscreen-container{display:none;}
+	.fullscreenslider{display:none;}
+.fullscreenslider img{display:none;}
+.fullscreenslider ul li img{display:none;}
+.fullscreenslider ul{display:none;}
+.recent-posts{height:278px !important;}
+.inpagebase{display:none;}
+.colorFooter .reverseBox{height:52px !important; padding:5px 0;}
+.inner-b-sm-txt{display:none;}
+.formob{display:block  !important;}
+.formob img{display:block  !important;}
+.innerbanner-txt, .inner-b-sm-txt{display:none; visibility:hidden;}
+/*.bestview{ font-size:0px; display:none !important;}
+*/
+.col-sm-8, .col-sm-8{width:100%;}
+.ml45{margin-left:0px !important;}
+
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+	.col-sm-8, .col-sm-9 {width:100%;}
+.logo {
+    width: 65% !important;}
+.inner-banner{height:165px; background-size:cover;}
+	.fullscreen-container {
+		width:100% !important;
+		position:relative;
+		padding:0;
+		height:350px !important;
+	}
+	.fullscreen-container{display:none;}
+	.fullscreenslider{display:none;}
+.fullscreenslider img{display:none;}
+.fullscreenslider ul li img{display:none;}
+.fullscreenslider ul{display:none;}
+.recent-posts{height:278px !important;}
+.inpagebase{display:none;}
+.colorFooter .reverseBox{height:52px !important; padding:5px 0;}
+.testi1 .rp-details{width:66%;}
+.pageSeparator{ position:absolute !important; top:-99px; z-index:500; }
+.pageSeparator, .pageSeparator svg{ display:block; visibility:visible;}
+.formob{display:block  !important;}
+.formob img{display:block  !important;}
+.innerbanner-txt, .inner-b-sm-txt{display:none; visibility:hidden;}
+.titlemain img {width:30% !important; height:auto; float:right; margin-right:3%;}
+.colorFooter .reverseBox{
+	height:auto;
+}
+.colorFooter .reverseBox .container{height:auto;}
+/*.view9{ font-size:0px; display:none !important;}
+*/
+
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+
+.logo {
+    width: 65% !important;}
+.recent-posts{height:278px !important;}
+.inpagebase{display:none;}
+
+.colorFooter .reverseBox{height:52px !important; padding:5px 0;}
+	.fullscreen-container {
+		width:100% !important;
+		position:relative;
+		padding:0;
+		height:400px !important;
+	}
+.testi1 .rp-details{width:100%;}
+.pageSeparator{ position:absolute !important; top:-99px; z-index:500; }
+.pageSeparator, .pageSeparator svg{ display:block; visibility:visible;}
+.project{
+	width: 220px !important;}
+	.col-sm-8, .col-sm-9 {width:100%;}
+	.fullscreen-container{display:none;}
+	.fullscreenslider{display:none;}
+.fullscreenslider img{display:none;}
+.fullscreenslider ul li img{display:none;}
+.fullscreenslider ul{display:none;}
+.formob{display:block  !important;}
+.formob img{display:block  !important;}
+.innerbanner-txt, .inner-b-sm-txt{display:none; visibility:hidden;}
+.titlemain img {width:150px !important; height:auto; float:right; margin-right:3%;}
+.colorFooter .reverseBox{
+	height:auto;
+}
+.colorFooter .reverseBox .container{height:auto;}
+/*.view9{ font-size:0px; display:none !important;}
+*/}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1025px) 
+and (max-width : 1799px) {
+/* STYLES GO HERE */
+	.logo img {width:100% !important; height:auto; margin-top:5px;}
+	.logo{width:25% !important;  }
+	.menu{margin:8px 0px !important;}
+.icon img {
+    width:46px !important;
+    height:auto;
+}
+.icon .circle {
+    width: 82px !important;
+    height: 82px !important;
+    font-size:70px !important;
+    line-height:70px !important;
+	border-radius:100% !important;
+}
+	.fullscreen-container{display:block  !important;}
+.fullscreenslider{display:block  !important;}
+.fullscreenslider ul li img{display:block  !important;}
+.fullscreenslider img{display:block  !important;}
+.recent-posts{height:300px !important;}
+.pageSeparator{ position:absolute; top:-99px; z-index:500; }
+.pageSeparator, .pageSeparator svg{ display:block !important; visibility:visible !important;}
+.inpagebase{display:block !important; visibility:visible !important;}
+.testi1 .rp-details{width:66%;}
+.inner-b-sm-txt{display:block;}
+.formob{display:none  !important; height:0; visibility:hidden !important;}
+.formob img{display:none  !important; height:0;  visibility:hidden !important;}
+.inner-banner h2, .inner-banner p{display:block !important; visibility:visible !important;}
+.innerbanner-txt{
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	z-index: 1000;
+	font-size: 28px !important;
+	font-weight: bold;
+	width: 48% !important;
+	height: 53px;
+	text-align: center !important;
+	
+}
+.tauth img{width:95%; height:auto;}
+.view9{ font-size:11px; display:block !important; visibility:visible !important;}
+.c-tab{ display:block !important;}
+.menu1{ display:block !important;}
+.menu{ display:block !important;}
+.ml45{margin-left:45px !important;}
+}
+/* Large screens ----------- */
+@media only screen
+and (min-device-width : 1824px)
+{
+/* STYLES GO HERE */
+	.logo img {width:80%; height:auto; margin-top:10px;}
+.icon img {
+    width:46px !important;
+    height:auto;
+}
+ .icon .circle {
+    width: 82px !important;
+    height: 82px !important;
+    font-size:70px !important;
+    line-height:70px !important;
+}
+.pageSeparator{ position:absolute; top:-99px; z-index:500; }
+.pageSeparator, .pageSeparator svg{ display:block !important; visibility:visible !important;}
+	.fullscreen-container{display:block  !important;}
+.fullscreenslider{display:block  !important;}
+.fullscreenslider ul li img{display:block  !important;}
+.fullscreenslider img{display:block  !important;}
+.recent-posts{height:300px !important;}
+.inpagebase{display:block !important; visibility:visible !important;}
+.testi1 .rp-details{width:66%;}
+.inner-b-sm-txt{display:block;}
+.formob{display:none  !important; height:0; visibility:hidden !important;}
+.formob img{display:none  !important; height:0;  visibility:hidden !important;}
+.inner-banner h2, .inner-banner p{display:block !important; visibility:visible !important;}
+.innerbanner-txt{
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	z-index: 1000;
+	font-size: 28px !important;
+	font-weight: bold;
+	width: 48% !important;
+	height: 53px;
+	text-align: center;
+}
+.view9{ font-size:11px; display:block !important; visibility:visible !important}
+.c-tab{ display:block !important; }
+.menu1{ display:block !important;}
+.menu{ display:block !important;}
+.ml45{margin-left:45px !important;}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+	.fullscreen-container{display:none;}
+	.fullscreenslider{display:none;}
+.fullscreenslider img{display:none;}
+.fullscreenslider ul li img{display:none;}
+.fullscreenslider ul{display:none;}
+.live{display:none;}
+
+/* STYLES GO HERE */
+.pageSeparator, .pageSeparator svg{ display:none;}
+.inpagebase{display:none;}
+.c-tab{display:none;}
+.formob{display:block  !important;}
+.formob img{display:block  !important;}
+.innerbanner-txt, .inner-b-sm-txt{display:none; visibility:hidden;}
+/*.view9{ font-size:11px; display:none !important;}
+*/}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* STYLES GO HERE */
+.fullscreenslider{display:none;}
+.fullscreenslider img{display:none;}
+.fullscreenslider ul li img{display:none;}
+.pageSeparator, .pageSeparator svg{ display:none;}
+.recent-posts {
+    height: 188px !important;
+}
+.inpagebase{display:none;}
+.c-tab{display:none;}
+.formob{display:block  !important;}
+.formob img{display:block  !important;}
+.innerbanner-txt, .inner-b-sm-txt{display:none; visibility:hidden;}
+/*.view9{ font-size:11px; display:none !important;}*/
+}
+
+ 
+/* iPhone 5 (portrait & landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+	.fullscreen-container{display:none !important; visibility:hidden !important;}
+	.fullscreenslider{display:none  !important; visibility:hidden !important;}
+.fullscreenslider img{display:none  !important; visibility:hidden !important;}
+.fullscreenslider ul li img{display:none  !important; visibility:hidden !important;}
+.fullscreenslider ul{display:none  !important; visibility:hidden !important;}
+.live{display:none;}
+.recent-posts {
+    height: 188px !important;
+}
+.inpagebase{display:none;}
+.c-tab{display:none;}
+.formob{display:block  !important;}
+.formob img{display:block  !important;}
+.innerbanner-txt, .inner-b-sm-txt{display:none; visibility:hidden;}}
+ 
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+	.fullscreen-container{display:none  !important; visibility:hidden  !important;}
+	.fullscreenslider{display:none  !important; visibility:hidden  !important;}
+.fullscreenslider img{display:none  !important; visibility:hidden  !important;}
+.fullscreenslider ul li img{display:none  !important; visibility:hidden  !important;}
+.fullscreenslider ul{display:none  !important; visibility:hidden  !important;}
+.live{display:none;}
+.recent-posts {
+    height: 188px !important;
+}
+.inpagebase{display:none;}
+.c-tab{display:none;}
+.formob{display:block  !important;}
+.formob img{display:block  !important;}
+.innerbanner-txt, .inner-b-sm-txt{display:none; visibility:hidden;}}
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+	.fullscreen-container{display:none !important; visibility:hidden !important;}
+	.fullscreenslider{display:none  !important; visibility:hidden !important;}
+.fullscreenslider img{display:none  !important; visibility:hidden !important;}
+.fullscreenslider ul li img{display:none  !important; visibility:hidden !important;}
+.fullscreenslider ul{display:none  !important; visibility:hidden !important;}
+.live{display:none;}
+.recent-posts {
+    height: 188px !important;
+}
+.inpagebase{display:none;}
+.c-tab{display:none;}
+.formob{display:block  !important;}
+.formob img{display:block  !important;}
+.innerbanner-txt, .inner-b-sm-txt{display:none; visibility:hidden;}}
+@media only screen
+and (min-width : 0px)
+and (max-width : 420px){
+.clientele img{width:50% !important; height:auto !important;}
+.footerlogo{width:250px !important; height:auto !important;}
+	.fullscreen-container{display:none !important; visibility:hidden !important;}
+	.fullscreenslider{display:none  !important; visibility:hidden !important;}
+.fullscreenslider img{display:none  !important; visibility:hidden !important;}
+.fullscreenslider ul li img{display:none  !important; visibility:hidden !important;}
+.fullscreenslider ul{display:none  !important; visibility:hidden !important;}
+	
+}
+
+
+/* iPhone 5 Retina regardless of IOS version */
+@media screen and (device-height: 568px) and (device-width: 320px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 0) { 
+                 /*IPhone 5 only CSS here*/
+ {
+	.fullscreen-container{display:none !important; visibility:hidden !important;}
+	.fullscreenslider{display:none  !important; visibility:hidden !important;}
+.fullscreenslider img{display:none  !important; visibility:hidden !important;}
+.fullscreenslider ul li img{display:none  !important; visibility:hidden !important;}
+.fullscreenslider ul{display:none  !important; visibility:hidden !important;}
+.live{display:none;}
+.recent-posts {
+    height: 188px !important;
+}
+.inpagebase{display:none;}
+.c-tab{display:none;}
+.formob{display:block  !important;}
+.formob img{display:block  !important;}
+.innerbanner-txt, .inner-b-sm-txt{display:none; visibility:hidden;}	
+	}
+@media screen and (device-aspect-ratio: 40/71) {
+	.fullscreen-container{display:none !important; visibility:hidden !important;}
+	.fullscreenslider{display:none  !important; visibility:hidden !important;}
+.fullscreenslider img{display:none  !important; visibility:hidden !important;}
+.fullscreenslider ul li img{display:none  !important; visibility:hidden !important;}
+.fullscreenslider ul{display:none  !important; visibility:hidden !important;}
+.live{display:none;}
+.recent-posts {
+    height: 188px !important;
+}
+.inpagebase{display:none;}
+.c-tab{display:none;}
+.formob{display:block  !important;}
+.formob img{display:block  !important;}
+.innerbanner-txt, .inner-b-sm-txt{display:none; visibility:hidden;}	
+	}
