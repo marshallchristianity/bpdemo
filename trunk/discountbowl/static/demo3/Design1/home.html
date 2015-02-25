@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+		<head>
+			<meta charset="utf-8" />
+			
+			<link type="text/css" rel="stylesheet" href="home.css">
+			
+			
+				<script>
+				
+					var x=0,menu="";
+					
+					function highlight(menu,x)
+					{
+						if(x)
+						{
+							document.getElementById(""+menu).src=menu+"_1.jpg"
+						
+						
+						}else
+							{
+								document.getElementById(""+menu).src=menu+".jpg"
+								
+							}
+					
+					
+					
+					}
+				
+				</script>
+			
+			
+		</head>
+		
+		
+		
+		<body align="center" bgcolor="white" >
+		
+			<div id="top_menu" >
+			
+				<div id="logo">
+					<img src="logo.png" >
+				</div >
+				
+			<div id="menus" >	
+				<ul class="menu">
+					<li ><a href="">HOME</a></li>
+					<li ><a href="">GET STARTED</a></li>
+					<li id="last_menu"  ><a href="" >CONTACT US</a></li>
+					
+				<ul>
+			</div>	
+				
+			</div >	
+			
+			
+			
+			<div  id="icon_menu"  >
+			
+				
+				<ul id="icons" >
+					<li><a href=""><img src="menu_1.jpg" id="menu_1" onmouseover="highlight('menu_1',1)" onmouseout="highlight('menu_1',0)" ></a></li>
+					<li><a href=""><img src="menu_2.jpg" id="menu_2" onmouseover="highlight('menu_2',1)" onmouseout="highlight('menu_2',0)"></a></li>
+					<li><a href=""><img src="menu_3.jpg" id="menu_3" onmouseover="highlight('menu_3',1)"onmouseout="highlight('menu_3',0)"></a></li>
+					
+				<ul>
+			
+			</div>
+			
+			<div id="names" >	
+				<img src="names.JPG">
+			</div>	
+		
+			
+			
+			
+			
+			<div id="footer">
+			
+			
+				<p></p>
+					
+			<div>
+			
+			
+			
+		</body>
+</html>
+
+
