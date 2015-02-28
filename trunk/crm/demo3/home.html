@@ -1,0 +1,46 @@
+
+<html lang="en">
+		<head>
+			<meta charset="utf-8" />
+			
+			<link rel="stylesheet" type="text/css" href="index.css">
+			
+			
+				<script>
+				
+				 var menu="";
+					
+					function highlight(menu)
+					{
+						document.getElementById(menu).src=menu+"1.png";
+					
+					
+					}
+				
+					function undo_highlight(menu)
+					{
+						document.getElementById(menu).src=menu+".png";
+						
+					}
+				
+				</script>
+			
+		</head>
+		
+		
+		
+		<body align="center" bgcolor="white" >
+		
+			<img src="logo.png"  >
+			
+				<div id="student" >
+					<a href="student_details.htm"><img src="a.png" id="a"   onmouseover="highlight('a')" onmouseout="undo_highlight('a')"></a>
+				</div>
+				
+				<div id="client" >
+					<a href="" ><img src="b.png" id="b"  onmouseover="highlight('b')" onmouseout="undo_highlight('b')" ></a>
+				</div>
+			
+		</body>
+</html>
+
